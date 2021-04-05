@@ -11,7 +11,7 @@ class Api::ItemsController < ApplicationController
         if groceryitems_valid
           render json: {message: 'Successfully created grocery Items list!'}, status: 200
         else
-          render json: {message: 'Unable to create todo list'}, status: 400
+          render json: {message: 'Unable to create items list'}, status: 400
         end
     end
     

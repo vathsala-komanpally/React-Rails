@@ -8,7 +8,7 @@ const ListOfItems = (props) => {
             <label >Avaiable Items are:
             <select onChange={(e)=>{props.handleClick(e.target.value)}}>
                     {groceryItems.map((el) => {
-                        return <option key={el._id} value={el.itemname}>{el.itemname}</option>;
+                        return <option key={el.id} value={el.itemname}>{el.itemname}</option>;
                     })};
             </select>
             </label>

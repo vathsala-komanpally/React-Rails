@@ -42976,3 +42976,687 @@ Started GET "/item/holder.js/20x20?text=%20" for 127.0.0.1 at 2021-04-01 17:04:3
   
 ActionController::RoutingError (No route matches [GET] "/item/holder.js/20x20"):
   
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 15:47:52 +0800
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 17:17:48 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 17:28:14 +0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 17:38:11 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 17:38:11 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 17:38:12 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4709995827031202925)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFoods (20210405115251)
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (63.5ms)[0m  [1m[35mCREATE TABLE "foods" ("id" bigserial primary key, "itemname" character varying, "description" character varying, "price" integer)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210405115251"]]
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (37.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4709995827031202925)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4709995827031202925)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(4709995827031202925)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/foods" for ::1 at 2021-04-05 20:04:24 +0800
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::FoodsController#index as */*
+  Parameters: {"itemname"=>"Gapes", "price"=>8, "noOfItems"=>83, "image"=>"data:image/jpeg;base64,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", "categoryName"=>"Fruits", "food"=>{"itemname"=>"Gapes", "price"=>8}}
+  [1m[36mFood Load (32.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 47ms (Views: 3.8ms | ActiveRecord: 38.4ms | Allocations: 2887)
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:07:08 +0800
+Processing by Api::FoodsController#create as */*
+  Parameters: {"itemname"=>"PalakPaneer", "description"=>"Home made cottage cheese cooked in a creamy spinach sauce with fenugreek", "price"=>23, "food"=>{"itemname"=>"PalakPaneer", "description"=>"Home made cottage cheese cooked in a creamy spinach sauce with fenugreek", "price"=>23}}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mFood Create (14.5ms)[0m  [1m[32mINSERT INTO "foods" ("itemname", "description", "price") VALUES ($1, $2, $3) RETURNING "id"[0m  [["itemname", "PalakPaneer"], ["description", "Home made cottage cheese cooked in a creamy spinach sauce with fenugreek"], ["price", 23]]
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+Completed 200 OK in 99ms (Views: 3.6ms | ActiveRecord: 27.0ms | Allocations: 4204)
+
+
+Started GET "/api/foods" for ::1 at 2021-04-05 20:07:17 +0800
+Processing by Api::FoodsController#index as */*
+  Parameters: {"itemname"=>"PalakPaneer", "description"=>"Home made cottage cheese cooked in a creamy spinach sauce with fenugreek", "price"=>23, "food"=>{"itemname"=>"PalakPaneer", "description"=>"Home made cottage cheese cooked in a creamy spinach sauce with fenugreek", "price"=>23}}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.3ms | Allocations: 729)
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:08:45 +0800
+Processing by Api::FoodsController#create as */*
+  Parameters: {"itemname"=>"Paneer Butter Masala", "description"=>"cottage cheese cubes cooked in butter tomato accented with dry fenugreek", "price"=>23, "food"=>{"itemname"=>"Paneer Butter Masala", "description"=>"cottage cheese cubes cooked in butter tomato accented with dry fenugreek", "price"=>23}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mFood Create (15.7ms)[0m  [1m[32mINSERT INTO "foods" ("itemname", "description", "price") VALUES ($1, $2, $3) RETURNING "id"[0m  [["itemname", "Paneer Butter Masala"], ["description", "cottage cheese cubes cooked in butter tomato accented with dry fenugreek"], ["price", 23]]
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (17.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 33.5ms | Allocations: 1682)
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:09:42 +0800
+Processing by Api::FoodsController#create as */*
+  Parameters: {"itemname"=>"Dhal(Medium)", "description"=>"combination of lentils tempered with spices", "price"=>18, "food"=>{"itemname"=>"Dhal(Medium)", "description"=>"combination of lentils tempered with spices", "price"=>18}}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mFood Create (2.2ms)[0m  [1m[32mINSERT INTO "foods" ("itemname", "description", "price") VALUES ($1, $2, $3) RETURNING "id"[0m  [["itemname", "Dhal(Medium)"], ["description", "combination of lentils tempered with spices"], ["price", 18]]
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (12.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+Completed 200 OK in 36ms (Views: 0.3ms | ActiveRecord: 14.8ms | Allocations: 1663)
+
+
+Started GET "/api/foods" for ::1 at 2021-04-05 20:09:47 +0800
+Processing by Api::FoodsController#index as */*
+  Parameters: {"itemname"=>"Dhal(Medium)", "description"=>"combination of lentils tempered with spices", "price"=>18, "food"=>{"itemname"=>"Dhal(Medium)", "description"=>"combination of lentils tempered with spices", "price"=>18}}
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.9ms | Allocations: 804)
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:11:34 +0800
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price":15
+}
+
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price":15
+}
+
+
+'):
+  
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:96:in `rescue in parse_formatted_parameters'
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:92:in `parse_formatted_parameters'
+actionpack (6.1.3.1) lib/action_dispatch/http/request.rb:399:in `block in POST'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.1.3.1) lib/action_dispatch/http/request.rb:398:in `POST'
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.1.3.1) lib/action_controller/metal/params_wrapper.rb:284:in `_wrapper_enabled?'
+actionpack (6.1.3.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (6.1.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.1) lib/abstract_controller/base.rb:165:in `process'
+actionpack (6.1.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.1.3.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.1) lib/rails/engine.rb:539:in `call'
+puma (5.2.2) lib/puma/configuration.rb:248:in `call'
+puma (5.2.2) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.2) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.2) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.2) lib/puma/server.rb:431:in `process_client'
+puma (5.2.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price":15
+}
+
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:12:34 +0800
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price": 15
+}
+
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price": 15
+}
+
+
+'):
+  
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:96:in `rescue in parse_formatted_parameters'
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:92:in `parse_formatted_parameters'
+actionpack (6.1.3.1) lib/action_dispatch/http/request.rb:399:in `block in POST'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.1.3.1) lib/action_dispatch/http/request.rb:398:in `POST'
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.1.3.1) lib/action_controller/metal/params_wrapper.rb:284:in `_wrapper_enabled?'
+actionpack (6.1.3.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (6.1.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.1) lib/abstract_controller/base.rb:165:in `process'
+actionpack (6.1.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.1.3.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.1) lib/rails/engine.rb:539:in `call'
+puma (5.2.2) lib/puma/configuration.rb:248:in `call'
+puma (5.2.2) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.2) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.2) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.2) lib/puma/server.rb:431:in `process_client'
+puma (5.2.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price": 15
+}
+
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:13:19 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price":15
+}
+
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price":15
+}
+
+
+'):
+  
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:96:in `rescue in parse_formatted_parameters'
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:92:in `parse_formatted_parameters'
+actionpack (6.1.3.1) lib/action_dispatch/http/request.rb:399:in `block in POST'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch'
+rack (2.2.3) lib/rack/request.rb:69:in `fetch_header'
+actionpack (6.1.3.1) lib/action_dispatch/http/request.rb:398:in `POST'
+actionpack (6.1.3.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.1.3.1) lib/action_controller/metal/params_wrapper.rb:284:in `_wrapper_enabled?'
+actionpack (6.1.3.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (6.1.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.1) lib/abstract_controller/base.rb:165:in `process'
+actionpack (6.1.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (6.1.3.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.1) lib/rails/engine.rb:539:in `call'
+puma (5.2.2) lib/puma/configuration.rb:248:in `call'
+puma (5.2.2) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.2) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.2) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.2) lib/puma/server.rb:431:in `process_client'
+puma (5.2.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "itemname": "Chana Masala"
+   "description": "Chick peas cooked with basic traditional masala gravy",
+    "price":15
+}
+
+
+
+Started POST "/api/foods" for ::1 at 2021-04-05 20:13:31 +0800
+Processing by Api::FoodsController#create as */*
+  Parameters: {"itemname"=>"Chana Masala", "description"=>"Chick peas cooked with basic traditional masala gravy", "price"=>15, "food"=>{"itemname"=>"Chana Masala", "description"=>"Chick peas cooked with basic traditional masala gravy", "price"=>15}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mFood Create (2.6ms)[0m  [1m[32mINSERT INTO "foods" ("itemname", "description", "price") VALUES ($1, $2, $3) RETURNING "id"[0m  [["itemname", "Chana Masala"], ["description", "Chick peas cooked with basic traditional masala gravy"], ["price", 15]]
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (32.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/foods_controller.rb:8:in `create'
+Completed 200 OK in 122ms (Views: 0.3ms | ActiveRecord: 53.2ms | Allocations: 6429)
+
+
+Started GET "/api/foods" for ::1 at 2021-04-05 20:13:37 +0800
+Processing by Api::FoodsController#index as */*
+  Parameters: {"itemname"=>"Chana Masala", "description"=>"Chick peas cooked with basic traditional masala gravy", "price"=>15, "food"=>{"itemname"=>"Chana Masala", "description"=>"Chick peas cooked with basic traditional masala gravy", "price"=>15}}
+  [1m[36mFood Load (1.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 1.5ms | Allocations: 930)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 20:19:03 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:19:03 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms | Allocations: 881)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 20:22:25 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:22:26 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:22:36 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.8ms | Allocations: 881)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:23:42 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:23:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:24:15 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:24:21 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (8.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 3.8ms | ActiveRecord: 8.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:27:03 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:27:09 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:27:24 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 1.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:30:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.6ms | Allocations: 865)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:30:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:31:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:32:22 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:33:45 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (12.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 19.8ms | ActiveRecord: 12.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:34:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:34:28 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.3ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:34:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (4.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 4.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:39:01 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:39:06 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.9ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 20:41:57 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 20:41:57 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:43:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 1.1ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:50:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 125ms (Views: 124.7ms | ActiveRecord: 10.0ms | Allocations: 2949)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 20:58:07 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 58ms (Views: 58.2ms | ActiveRecord: 7.1ms | Allocations: 2897)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:08:51 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 55.2ms | Allocations: 2897)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:13:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 1.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:14:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:16:39 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:20:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:21:05 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:23:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:27:57 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 2.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:28:25 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 21:29:38 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 21:45:07 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 21:45:08 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:00:56 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 145ms (Views: 144.3ms | ActiveRecord: 92.7ms | Allocations: 2948)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:11:34 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 38.2ms | Allocations: 2900)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:14:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (6.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 30.7ms | ActiveRecord: 6.6ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-05 22:16:58 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:20:10 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:21:24 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 2.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:30:28 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 9.8ms | Allocations: 2898)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-05 22:44:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 98ms (Views: 98.0ms | ActiveRecord: 8.0ms | Allocations: 2897)
+
+

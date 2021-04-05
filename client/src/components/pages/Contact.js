@@ -1,13 +1,24 @@
-import React from "react";
+import React,{useState} from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container';
+
 const Contact = () => {
+  const [validated, setValidated] = useState(false);
+
+  const handleChange = (event) => {
+    console.log(validated);
+    if (validated === false) {
+      setValidated(true);
+    }else{
+      setValidated(false);
+    }
+  
+  };
   return (
     <Jumbotron>
       <Container>
         <h1>Contact Us:</h1>
-        <p>Adress: <br />
-    Drive, Ocean Reef, WA 6027<br />
+        <p>Adress: <br/> Drive, Ocean Reef, WA 6027<br />
         Call (03) 9311 1200<br />
         grocerystore@lucky.net.au<br /><br />
         Opening hours: <br />
