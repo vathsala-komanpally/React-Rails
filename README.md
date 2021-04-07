@@ -1,6 +1,6 @@
 # React-Rails
 
-### Technologies: React.JS and SQL.
+### Technologies: React.JS, Rails and SQL.
 
 ## Project setup:  
 
