@@ -75,9 +75,9 @@ width:65%;
 overflow:hidden;
 } .addItem, .updateItem, .deleteItem{
   float:left;
-  width:30%;
+  width:35%;
   overflow:hidden;
-  border: 10px solid rgb(204, 161, 80);
+  border: 5px solid rgb(106, 181, 184);
 }
 .DisplayItems{
   display: grid;

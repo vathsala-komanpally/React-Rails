@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 import {AddItem} from "./AddItem";
 import {UpdateItem} from "./UpdateItem";
 import {DeleteItem} from "./DeleteItem";
+import Button from 'react-bootstrap/Button';
 
 const OperationsOfAdmin = () => { 
     return (
@@ -16,7 +17,7 @@ const OperationsOfAdmin = () => {
                 To add new item in the existing category name<br/>
                 </p>
                 <Link to="/item/create">
-                <button type="button" id="add" className="btn btn-primary" >Add</button>
+                <Button variant="info" id="add" className="btn btn-primary" >Add</Button>
                 </Link>
             </div>
             <div className="updateItemInfoUser">
@@ -24,7 +25,7 @@ const OperationsOfAdmin = () => {
                 To update existing category or item deatils <br/>
                 </p>
                 <Link to="/item/update">
-                <button type="button" id="update" className="btn btn-primary">Update</button>
+                <Button variant="info" id="update" className="btn btn-primary">Update</Button>
                 </Link>
                 
             </div>
@@ -34,7 +35,7 @@ const OperationsOfAdmin = () => {
                 To delete a category or any item from particular category<br/>
                 </p>
                 <Link to="/item/delete">
-                <button type="button" id="delete" className="btn btn-primary">Delete</button>
+                <Button variant="info" id="delete" className="btn btn-primary">Delete</Button>
                 </Link>
                 
             </div>

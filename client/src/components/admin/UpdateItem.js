@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react'
 import { ListOfItems } from "./ListOfItems";
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 
 const UpdateItem = () => {
-    const [selectedItem, setSelectedItem] = useState({id: '',
+    const [selectedItem, setSelectedItem] = useState({
+        id: '',
         itemname: '',
         price: '',
         noOfItems: '',
         image: '',
-        categoryName:''
+        categoryName: ''
     });
     const [items, setItems] = useState([]);
 
@@ -16,12 +20,12 @@ const UpdateItem = () => {
     }, []);
 
 
-    const GETDataOfItems=()=>{
+    const GETDataOfItems = () => {
         fetch('/api/items/', {
         }).then((response) => response.json())
-        .then((groceryItems) => {
-            setItems(groceryItems);
-        })
+            .then((groceryItems) => {
+                setItems(groceryItems);
+            })
     }
 
     const handleClickItems = (itemName) => {
@@ -31,7 +35,7 @@ const UpdateItem = () => {
         const foundItem = items.find((element) => {
             return element.itemname === itemName;
         });
-      
+
         setSelectedItem(foundItem);
         console.log(selectedItem);
     }
@@ -57,33 +61,33 @@ const UpdateItem = () => {
 
     return (
         <div className="updateItem">
-            <h1>Update items</h1>
-            <ListOfItems groceryItems={items} handleClick={handleClickItems} />
-            <div className="itemDetails">
-                <div className="ItemName">
-                    <label>Selected item name:
-                <input name="itemname" value={selectedItem.itemname} onChange={handleChange} placeholder="Enter a name of the item to add" />
-                    </label>
-                </div>
+            <Jumbotron><Form>
+                <h1>Update items</h1>
+                <ListOfItems groceryItems={items} handleClick={handleClickItems} />
 
-                <div className="ItemPrice">
-                    <label >Price:
-                <input name="price" value={selectedItem.price} onChange={handleChange} placeholder="Enter a price of item" />
-                    </label>
-                </div>
-                <div className="no.OfItems">
-                    <label >Number Of Items:
-                <input name="noOfItems" value={selectedItem.noOfItems} onChange={handleChange} placeholder="Enter no. of items" />
-                    </label>
-                </div>
-                <div className="imageOfItem">
-                    <label >image Url:
-                <input name="image" value={selectedItem.image} onChange={handleChange} placeholder="Paste Url link here" />
-                    </label>
-                </div>
-            </div>
+                <Form.Group controlId="ItemName">
+                    <Form.Label>Selected item name:</Form.Label>
+                    <Form.Control type="text" name="itemname" value={selectedItem.itemname} onChange={handleChange} placeholder=" a name of the item to add" />
+                </Form.Group>
 
-            <button type="submit" onClick={handleUpdateItemSubmit} className="btn btn-primary">Update Item</button>
+                <Form.Group controlId="ItemPrice">
+                    <Form.Label>Price:</Form.Label>
+                    <Form.Control type="text" name="price" value={selectedItem.price} onChange={handleChange} placeholder="Enter a price of item" />
+                </Form.Group>
+
+                <Form.Group controlId="no.OfItems">
+                    <Form.Label>Number of Items:</Form.Label>
+                    <Form.Control type="text" name="noOfItems" value={selectedItem.noOfItems} onChange={handleChange} placeholder="Enter no. of items" />
+                </Form.Group>
+
+                <Form.Group controlId="imageOfItem">
+                    <Form.Label>image Url:</Form.Label>
+                    <Form.Control type="text" name="image" value={selectedItem.image} onChange={handleChange} placeholder="Paste Url link here" />
+                </Form.Group>
+
+
+                <Button variant="info" type="submit" onClick={handleUpdateItemSubmit} className="btn btn-primary">Update Item</Button>
+            </Form></Jumbotron>
         </div>
 
     )

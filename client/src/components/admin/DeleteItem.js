@@ -1,6 +1,9 @@
 import React,{useEffect, useState} from 'react';
 import { ListOfItems } from "./ListOfItems";
 import {PrintDeleteUserMessage} from './PrintDeleteUserMessage';
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 
 const DeleteItem = () => {
     const [items, setItems] = useState([]);
@@ -44,16 +47,14 @@ const DeleteItem = () => {
     }
     return (
         <div className="deleteItem">
+            <Jumbotron><Form>
             <h1>Delete</h1>
-            <ListOfItems groceryItems={items} handleClick={handleClickItems}/>
-
-            <div className="deleteItemName">
-            <button type="submit" onClick={handleDeleteItemNameSubmit} >Delete Item</button>
-            </div>
+            <ListOfItems groceryItems={items} handleClick={handleClickItems}/>    
+            <Button variant="info" type="submit" onClick={handleDeleteItemNameSubmit} >Delete Item</Button>
             {userMessage===200&&
                     <PrintDeleteUserMessage message={"Item deleted"}/>
                 }
-            
+            </Form></Jumbotron>
         </div>
     )
 }

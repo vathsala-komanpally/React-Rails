@@ -44858,3 +44858,1895 @@ Processing by Api::FoodsController#index as */*
 Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 1.6ms | Allocations: 863)
 
 
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:34:49 +0800
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (61.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 93ms (Views: 12.0ms | ActiveRecord: 72.5ms | Allocations: 6150)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:37:11 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.7ms | Allocations: 883)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:40:24 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.2ms | Allocations: 882)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:41:09 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:41:09 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.5ms | Allocations: 882)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:44:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:44:56 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (4.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 8.7ms | ActiveRecord: 4.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:45:10 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:45:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:49:09 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:49:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (3.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 3.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:53:34 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:53:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (3.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 8.1ms | ActiveRecord: 3.3ms | Allocations: 882)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:55:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:55:08 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:55:26 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:55:34 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:55:38 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (10.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 35ms (Views: 24.2ms | ActiveRecord: 10.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:56:00 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 2.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:56:11 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:57:21 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 1.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:57:44 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:57:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (5.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 47ms (Views: 41.1ms | ActiveRecord: 5.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:58:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 12:58:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:00:29 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (5.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 27ms (Views: 20.9ms | ActiveRecord: 5.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:00:33 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:01:33 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:01:47 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:01:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.6ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:01:53 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:02:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 1.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:02:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:04:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:04:21 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 1.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:05:34 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (51.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 100ms (Views: 47.9ms | ActiveRecord: 51.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:06:13 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 2.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:07:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 2.1ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 13:09:38 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:09:38 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:09:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:13:51 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:31:44 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 91ms (Views: 90.6ms | ActiveRecord: 27.2ms | Allocations: 2974)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:31:49 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:48:29 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 13.4ms | Allocations: 2897)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:48:33 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 13:49:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:02:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 48.6ms | Allocations: 2950)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:02:24 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:04:07 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:04:13 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:06:45 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:06:48 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:10:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (15.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 32ms (Views: 16.5ms | ActiveRecord: 15.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:10:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:10:56 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:15:00 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:15:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:17:24 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:17:48 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:18:00 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:18:03 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:18:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:18:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:19:32 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:19:35 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:21:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (7.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 12.2ms | ActiveRecord: 7.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:22:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.3ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:23:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:23:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:27:49 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:29:36 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:29:39 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:30:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:31:00 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:32:07 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (5.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 12.7ms | ActiveRecord: 5.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:32:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 2.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:32:58 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (5.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 11.5ms | ActiveRecord: 5.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:33:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 1.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:33:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:33:57 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:34:58 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:35:09 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (7.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 7.7ms | ActiveRecord: 7.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:35:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.0ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:37:58 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:38:04 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:41:47 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 2.0ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:41:51 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:43:52 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:43:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:44:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:44:49 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 2.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:48:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:48:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:48:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:48:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.7ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:49:38 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (5.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 41ms (Views: 34.7ms | ActiveRecord: 5.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:49:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:50:15 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:50:19 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:53:12 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:53:15 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (3.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 3.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:53:56 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:56:08 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:56:15 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:56:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:56:47 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 2.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:57:25 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:57:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 16:58:15 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:20:07 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 71ms (Views: 70.7ms | ActiveRecord: 49.0ms | Allocations: 2950)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:20:22 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:24:08 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:24:08 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:24:08 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:24:08 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.3ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:24:42 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:24:46 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.6ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:26:25 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:26:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:27:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:27:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:27:52 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:28:32 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:29:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:30:26 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:31:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:31:06 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:31:53 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 2.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:32:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:32:06 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 1.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:35:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:35:32 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:36:29 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:36:29 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 862)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:37:57 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:37:57 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 862)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:39:11 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:39:11 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.4ms | Allocations: 862)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 17:39:11 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:39:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:39:53 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.7ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:39:56 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 52ms (Views: 48.8ms | ActiveRecord: 2.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:40:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 2.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:40:25 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:41:25 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:41:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:42:05 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:42:21 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 17:42:24 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:02:13 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 50.7ms | Allocations: 2949)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:02:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:02:51 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:04:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 2.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:05:13 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:05:16 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:07:27 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (6.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 36ms (Views: 29.6ms | ActiveRecord: 6.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:08:34 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:11:47 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:12:08 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:14:30 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:15:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:16:20 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:16:51 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:16:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (35.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 52ms (Views: 16.7ms | ActiveRecord: 35.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:17:35 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:18:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.6ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:18:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 18:23:27 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:23:27 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:23:27 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (7.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 22ms (Views: 14.1ms | ActiveRecord: 7.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:25:21 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:25:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 1.9ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:34:36 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 68ms (Views: 68.0ms | ActiveRecord: 50.3ms | Allocations: 2950)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 18:35:58 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:35:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:36:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:37:10 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:38:29 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:38:35 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:39:11 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:39:46 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:41:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:41:46 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:42:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:42:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (3.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 3.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:45:43 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:48:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:48:26 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:51:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:53:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 1.0ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:53:48 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:55:02 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.9ms | Allocations: 866)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:55:05 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 2.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:56:04 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 18:59:15 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 2.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:01:21 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.7ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:07:08 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 204ms (Views: 203.5ms | ActiveRecord: 26.8ms | Allocations: 2949)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:08:46 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:11:45 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (19.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 40ms (Views: 19.9ms | ActiveRecord: 19.2ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:14:46 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:14:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 2.0ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:16:44 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:16:53 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:19:40 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 19:20:54 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:20:55 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (2.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 2.5ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:21:28 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:23:00 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:24:57 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 19:28:44 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:28:45 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:30:34 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 1.4ms | Allocations: 864)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:32:14 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.1ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:34:55 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 1.3ms | Allocations: 863)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 19:36:02 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:36:50 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms | Allocations: 862)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:39:20 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:39:37 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:40:54 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:41:10 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.6ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:43:18 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.7ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:43:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:44:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:44:53 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.5ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:45:05 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.8ms | Allocations: 863)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 19:46:59 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.4ms | Allocations: 863)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 19:48:26 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (83.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 113ms (Views: 15.0ms | ActiveRecord: 95.2ms | Allocations: 4211)
+
+
+Started GET "/item/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 19:58:01 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/item/babel/parser/lib/index.js"):
+  
+Started GET "/item/babel/parser/lib/index.js" for 127.0.0.1 at 2021-04-07 19:58:01 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/item/babel/parser/lib/index.js"):
+  
+Started POST "/api/items/" for 127.0.0.1 at 2021-04-07 20:04:00 +0800
+Processing by Api::ItemsController#create as */*
+  Parameters: {"itemname"=>"Bluberry", "price"=>"4", "noOfItems"=>"55", "image"=>"data:image/jpeg;base64,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", "categoryName"=>"Fruits", "item"=>{"itemname"=>"Bluberry", "price"=>"4", "noOfItems"=>"55", "image"=>"data:image/jpeg;base64,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", "categoryName"=>"Fruits"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mItem Create (55.2ms)[0m  [1m[32mINSERT INTO "items" ("itemname", "price", "noOfItems", "image", "categoryName") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["itemname", "Bluberry"], ["price", 4], ["noOfItems", 55], ["image", "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQVFBcVFBYYGBcZGSEeGhoaHCIeIxwdIyEdHCEaIiIiISwjHSApIh0dJDYkKi8vMzMzHSI4PjgyPSwyMzIBCwsLDw4PHhISHjIqIik0MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAKIBNwMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAFBgMEAAIHAf/EAEEQAAECBAQEBAQEBQMDAwUAAAECEQADBCEFEjFBIlFhcQYTgZEyobHwQsHR4SNSYnLxFDOCFRaSorLCBzRDU4P/xAAZAQEBAQEBAQAAAAAAAAAAAAACAQADBAX/xAAjEQACAgICAgMBAQEAAAAAAAAAAQIRITESQTJRAxNhInFC/9oADAMBAAIRAxEAPwCaorFiyy0RIWiYCgn8LjoeZ7QKr6lKiTMJAzEgtb+09YjpsRTKlrUhnUWH3r0j6UVR4GrAGNUqkHzDsWJ5gkj1vEUirQhgTY89jb94s+MKs5UoUp1HLYWYByfckQsU2dVkpUroATHKc6lR2hFuNsaZ+IcNjpGlEPNZNnUoB+Q5et3gGKKeSQEK69O8P2CmTNpEIl5fNlpTnbUKD3cauxixlbqiTikrCVZgsspAzC2g5esJviGly8LMRcEaLYD52I9oOTq5eXItkqHo/vtALFKoDLcqYunoBpt6QmnWQx2BpUiZMACUsDoTv25xbmYcuW2c8QGvszwz+FkZuJRBbQNppfvpFjxFQFaeG43jKKNz6F0Y7ZirKsBgbt3j2krFlwniULqW4Yba/ZML8+lZVyQOvOHHAJUmXKRMmEZczEdXa/P94ik7yKSSWAPSYAqomKImBBJtnSb9LGIazB51MoCYHS/CtJdJPQ7G2hvHWJdfImDLJQhQAuWFvbeB9RNpZ6ZshSwVJGVaS4OjhQcOW1Chy6REldmcmv8ABNoMXmhOVKyw6xTn4wvzU5j1+R0gKohClhSzmSops+oJHa8VJk8kg6l7QXOh8LOnYRWqmTMqVADUPy3NtNI88SV84JKUlKlIUSdTwMMvb8T9hcbg/CVXLBdYfhYNt/TB/EFS5t5VzlYh7ln1exFzbtyjrVq0cdMTpdUoKKiFAKN27vzhn8O0qZqgriICSQmwNi3EXsk6hopSqdwULQUn8LDU6t8v8ROETJKVZXC1AX5DmTvv7xoplk0EsQxhEvUhSiopU2lnYDszesA59RLmuQBd7t7/ACjPDFHLmTSucypUsEpCvhKyWvsdIf6mnTMBBUGayRYJ2cARG0g/iOOGq8pakpYoP0/KGPCq1ChmJcbWvBvFfCMqali6ZjcMwX6OofiGgO8c6mrm0y1ylBlpUxH6cwdfaDz4vOjokprGwlipZWZJ++sU5GINoRFeZKnzGdJY+nvFVdKpJ4g3XaBKcrwjooqqsOrxFSg1i8G8E8sJV5ocqZn76wq4epylw4hiKxyjpF2gSVYBOOSuJWRii7cw7fpAaXWKSG1EGyjMvIkuTztfk8MFH4SlAozKTMWourcAasBt684E4Su0xKaSyIKpxOlu0S004pIuxF77x2eg8M07ccpKkgfCpKWfpuI5niFMfNWFS8ksrUyUh8gBIAfUiwv1MFQd3ZVNPFERxE5cqSUjdt/2iI17JZyVE2T12eCFJ4YVMUEy1JJPy79IZE+DJMkBRBmr3dwOuUJIb1Jjp/RzuKF/AQEnidayp1A/hf8AWG3G5siXIUyWUwD63OwixTeHZQDoSZaiNQSfcKcetoT8bnrQ8pYzF3BF3uwhrX+A2ygmb5kxLjYPp9v1g9OrUSkKS4AysG5t07wq0uGz1EqAAY6Pce0XahMxj5iFMNSPlbUQYt9ocorVklLjU1FgQtJ0SrbtGQJmVssHhQX5k/QWaMic/wBHw/A7/wBYRlAHEGuDp+kR0+epmIShICAr8DWA3bvd+nrGY54ayJdAZQ1SbZh/Ts/TfvF3wQkSpa5ikupZYPoAPzd43KTlVBqNWivjfhlYXm8wLL8T2YcuR77vB3AsIkqllK3cKD6jhI0A3/Yw2yhJMsLUBcP6nWF3FpwQU+Wvew/L10iqrwCTYYl4TSoQUy0i4vbXeELE5sylmlcuwUwYAfYcaweOLKbh1Ol9OjQFxmfnlknV2uGPd/yi8cETybUUmfXPMSAgJDFSrORyAur9oKUHgySpf8ebMJA+AJCA+xF1FXZopeGKoS8zlgCAE8msfyhwNWiYjMU2Is2o5F9ojsTw8AJVAmm4UlXEbKU2j72b0bePK2qyJ2itjiyJZClqWUKCgom4/CUnmMrHumF2txJ0BLt/UY6XSBxtmYrMSpjlAN7fn+0V504GWkJJZyVDbN0iDyuJaZi1y1AcKVJJzauFN8O3vBnw34bVOJXMJSg/CE6qbU30Hpf5xz5Wda4q2yfD63LTTUgcKmSWLKDbi9joR2gfRzJstXmrX+DKXLlSP5d9Ty0joNJ4ZlIS8uWi40UHJ7k3MaYj4alFHGlPoBboGDgdjrGwHls5BLQqZMO2ZTn1Lw50fhpKqSYpIBWxCSzktdh7NFHFsGFOQtJeWezj1Hxd9YZfBs5akqAUVcQCE/hHNXVgPnBjCt7LL5L0CcE8EVCgFTZiZD3CWKlnuAQE+79IMf8AZ86WQqVPBPJSWf8A8SYZxIIUVK93i356TwxVccILblk5nidROoyEzpZGpQoF0qP9J6PvfpFKirplZM4y0tJGa/xchHR8WoZcyWqVM4kr/wDSdlDkRHOcMojKmTZZLKQST/UUnboQQfWKnJyXoy48X7Hmlw1GTy8gSlIcDQXALm3tFmRTKSEsSXsL27vygJW1E+ZLXLQcvmBKgQpyAzAGzZSRpEeAedJC5U1Ty0pUQMpfOS7gg6uo6jcRWnYVoYRWsSC2YHL3tYQq4zhqRUedMS5KABa1rA92yj0g9WqskglTB7u5Lal9N4A4hXuqV5hGYJUbbDhb5fOLxRFd4D2GYNLXLJU4e3awP5xQqPCkvKVBZWGsTow5830iHCPEyV5grhQVMCdfUe3pG+K1SgeFZMs6izDoDBV3aFrD2IldSGnnFwQh+/pB+jxinlozKBU4cBLAm+XTpc+kVfFc9K5b7ghj9+0LlAjiSVWAUAex1+UFycZcUdkuUbYxU65cyoK0OEJYgDUuNejfKGLCq4yVcAFybk3A5DlChTyfLWHUwuC2/X5Qao60ZjnbK+rCOi1k5P8AB4pMfCsyFOltzz0MC5mDJJWtCysqPECH4TY2Zi8Cpk9Khcg8iDtFKXjS5IKZYd3AfbdzziKKI7YewUhM1Y5ACw9D35+sNFHVpSMvL1aOc+HcQzLmlRAfhf8AODGHy1pUSpRvpyitKSJlMbqipCi2naAldgyJiELOV5SlfFuk3bfcD5xX87JMFiQbFzYPu0ZjPiFMnMAMzJunnbQ8hGSo2WZ4fpZE1JUlSUqdlJ00e57wQmYbKBcpe92Py7GEDCFrMzzHZ2sBl2Y6c/1g/LxFQI43NwQ7esSm3ZWugR49wpAafLSEXyrSPkr6D1EZBLEZr5GUFO/xC3PTeMjP47Y4/JSoL1KhNQqZMQRl0v8AYIhUxWryTGFgUhQfd7++8M1VjKVJCRc6AAavb1MUJPgxU0hVQVJcDLLQQD/yWXCewBPaK8I5x3kGy8ZOUGYrszARVrMRRY2JO573/KGpfgymAAImJL/EmYVe7jKe7DWBdX4NMqamYF+ZKTxMQyuYsLKA6e0FP0NuJc8PYMhSDMmAqWRZN7PybRmGsb4p4fkrlkJSpKgDopXvclJ9oLUtcAlyoDkHZxt3jerqFNwMQdenSFm6BfZzeYTLdL8abEkfEOcFKDH2DakaiNPFIBBmITlCQAx6qAPfWAdLhU2ZxIStSdykEt0tEbp0NJNWwpjWKGYggAhZs/QEH0fSLPhLD1pXLmqRLVufMS+UbBOwUWfMdNoqVtNMlofy1BIGpSQPdmg/MxEIkoQnRIcG/OM43k10qQyYjJlrQVTJaFN8PQlgL63LRYlz0SpRmLCgJf4UpcnYJSB7ekKlDiS5qkJUeHMH9IakFEyWzmx5kPtt3iU6A9iHXY7VuvOuYlEwZgCCAhi/BYgsLEepuIKeB8YKhMlzJkxZLGWFkqKUh73uSSTpyEbEKp5gEs5AQpkhGYav8IYADmeew10wymInGYq54SDobHMdGAdTvsdOTah2qLeOy8uYKGeWrUHbtyihg9cmkkqyjO0zKniyuFHMS7a5SNtoYq2dLmgAgpbfUWjn8+ZKXOXLUSQFkpbdRuPfSK8IMcjzhviZFSoSgny5igSNwQDsXcqZyzDQxamLQgXOv1hNweh8qciZYEZg3cNrqxc2hmqp6SAHub/ZiqOMklh4LKF8JJJbQPr+2/tHO/FFSpNYqYhyQlDkf2h/XSGddYmWklR4U78/vSBWD0qalU2YtgXf9B9BBksUKDp2Zh+IS8uZIz7lJ/Arex0gjTYik3lksLsovfl+0K/iHC1yV5glaQdFjTtAhOITUhgrXpE+zjtC+u9DyvGhkmFRAA53bZu8J9ViRmrKlqOmUP8Ay/r+se0uHTZ4zFyAf8xJP8PzEKTmBAJDvyfvGk5PSwKKjHstYLhGYhTPy+X23WHCpwOetNwCG0s36wJw2pEs20DDo+/XSDo8SzMpSwKeZBcRUmsIDdvIr4rgC1BKE8BzAHMeEg6F9mufu7Lhnh+lQJaQPMWqynAJZy6n/COgaBeLVylIJUNfkdR2iHD/ABApEwTEhwAkEegP5xms32bLx0NWMeHkqlmWAkB7G5V7kmOeYnh02mJzOuWdxt3h0V43Cic0thsf1DRrVz5VRLUlRAKhmYHkdWb5RlbWTeP+HP8A/qKdEqLb2jWZMXMPAk6a7mIE0uWapGuVRA97QeoKjy34NbFX5dHiLlJZOkqWhepapUpRPoRzhmw/xA7ByCdEs7nla8C6unC1sBcnTqYecBw+TSpQlCUrmrS6lnXsH+FNtB840VKLxoE3Fr9AVYaiYQQni2QVJQT/AORBeAeJ4XWImLXPlTEKIJKim3QAhxyDPHYqLDZbeYsJKjct6epj3HaI1FOtO/4XD35940v6ZIz49HGpGItLAI6JYb8ni7TU0xYzcQ3OXiP1/WNqulZaUTRly6Ka5SOEcnFtdWh2wWfISgNqzdTaLlbK2uhQnYYuy86w1gCglva49oyOjJq5atAlvSMiX+Ev9E/wPTrnPPWo/HlRszNmIHV29DHSB8CuIZmLPd7HbUxznwXVKkJ8op/E4J5b+v6wxoxhLm4Kwdn3t0teNxk1kjavAtyamrTMMwzVqL8WYWIuSAgFrX30h5kpDWNikFtGflygfNWlZdUoHKcwIIYq56X3u0bCtmAOqXlSbMNtYtElITvE1MgTQQqz5gNL3BAizQ4lklrcnM1n0f7+kTVuGqqJqci0hgbKBubWt9YDYrglYLAoVZwBu3IneFhGTtUXcFwlVR5kyaP4YPCP51Dn/SDqNz0eHmmpkAIYNlFgOEDrlSwhdwCaE00pJ0CAVHqUue3EY3qfEoQMxSVHMA3wgJ59TEfs23QyVAWkF1ZgRoQPsg8oQsdqZaEr8tOUCzBilJ0I6Dpt62N0HiBM5ZQomwJJbhZ217n5GBvimjGRWUC75j/Nb63+UVXRNPItYfiNgRbeGrDsXlzEMCyh8TRzmVTLCcxcJIJDDNYWu2g6mPVifJIUHSCHBGhGvYhrtHNfJSyjs/jTeGdRXVhadu/URCJtixZuXLny/wAwjy8anBIzIHe/oW0i2cemBHBLR1sW+sNTRzcGhorK0S5alm7Jt1Ow7vHOTLK1u4zaqbnq3ftE9bi0yZ8ZDguzMAe0WPD9OVhSgzg3+ZfpAk1NpDjHgmyakk1GXdQ0ALuPWClPUTmYSlE81Kt9HaD2D0gloCSQSGcG5v8AP1ixOWx2CbvvDWMHOUrOe40J2dPmGxJYbAj694sUcssWJDxP4pICQQokBQyn6/KAsivIFiH6wW0pUzsrlFFiqlTAWzEg8y/J48oqYqCiL5C5P8oLOR97RUXWqVxGCmG4TVlClCRMKVa2Zx6kGCmrM00hp8P4xSSgAZSlL0KgXDW2JG8TeK2mS0rlMzvbW14W6Wn8o/xHQrZK0ke3OLVfiqEoyJJc9Oe0dKrLOb3ghwmcla1Ali1hsTyg9TBJCPMYeYSNb6OLc+nSEyloamYrzJaTw3zOztf1iefTzlqlpzKmAKdKR1OYkncknX2icn6K4L2XsdnpSTdglTJu5JFiW2gPQrUhZWTYnb2hgqfCa5ozlakK/lXex/lv9YXsQQuSvylOVNqNFOSxHMN83iSebZY01SCU/EJatRpuI1p1hClLSpgUkJG5ezRFS+HJqmK5kuS+gmZyfZKVN2JcQYw/AVyFeYpSJiS4TNlqzJQdnBAIPcW5xou3osqS2B6bAp6lZiUIKrstRe/PKkt6xNVUs6WQpaGBtmTdKu/L1Ah/w9Ehacu+6jqfWNa+kGUpSoEMbEfYixVYObm9iRhOXz3UzBCiO5GX84P1CGU6TdWvTkE9IXqekmS6hSwkBCdXOgOw5sYJzsRU6VICQkpH/EjXe8OJJbDVPVzCMuY8hqLekH6fEhKQAv4Wv0hXRVhKCpLMAAVOL/P6CKVdjqQk5i3p39zGpEy9EXinEZcydLUE5U5CC/8AcSCe4+sQ0FSlSjfKBYE6D1hZqala1LUre7a+keycSyoUi4zaEFmMD7EdV8eDo1JhYUMyCtQLaFufvGQj4ZjCkJI8wkk6KOb2J27x7E5k4MLYjVTJS05wFS3bMNubjfb2ghRViCXLcWhHJhaKviQXXLSzK1+vvCrTInZjkJQNCTo43hOVEik0dSp65LNZh6RUxLH5YSRnBJH4bt1+94TBKq3+NB9R+ZaB1XST0MtXGkmyklx8t+sRyrNGUE+xmwWvJqPMWDly2A25Dk/6w1VNYVAAJ4Ckkv2cdfaEjC8RSpICrEX9vzg1Lx8HhDA3DnaHh5BK1grpxIJUpKS3DfdiR+RtFY00tWZRsSolTlrm7jWF/G6v+KFIN7uee0WaLFl5GLjtp7GDzTk0Pg0rGKjyBvwDluw3eIfEmKgZglbiwSOR0gDPnzJhCElVyAANztDBg3huSrjqFTVLBcJQ4CW/ES2tucZya0RRV2wKmapclMmWJmdSD5qitgtCTmQGJYJQyuT5jrFmupVLkyVEApZKQN+nT0g5imB5SJktSy5SNX4eRS2pdN7GwML2OVxQ8pYKVSyCG1zagh7t3gqknYr5NUEF0oWkE5bWKbW6+vPpE05aESwgXUzE/nC/h+LsC4u7lzv+kWqnEQoZm6Pt7xk0Vp6ZSxagKihSWcji5DlGmHmZIfYK327Qx4CnzDmWCRsAH9TB+twqWuWQAAeUJwSfLsH2PxF+mx0AJyhlAM7O+kEa3GpZQUkhSsosToSGc/WFavw6ZIdSbp3GrbWiGmwioqCyJasupURl/wDcRaI5NdF4xeS5W066pSRLBygf+R3I6cvWIqjwrMSm9m3+9YacEQunZMyUtBHwk6dWIsT6xpiuNIMxKLuSxu2u8bim8oyk1oo+F8DTLUCsZppLp0ISLc9DzJ0dub9DRSlaCnMRb7N4UsOr0iZnIYJ4R9PnF6djkwkoUlLsSli2fkLjhtGarCC3ydsqT8OSJjTpgVKUoMgqvexLO42Yi9rQj+IcOVIqjISp0kjKSXso7nQsd+UXqvzJs5cxYBTnCSlK92ORt2cOSBYPpFHFpi5lQCEqUUm7Bzr+zwZttHSCpjbJnpShUtKgJSWSC/xgM1+usMmEBGUHKAQOUc6NTMkycg0zvca9NNHaHqgnzJshHlkBwCSBbQOG72h7OegrVTwQ76fCduveF+TRCbMKmBVK4EKHCwUxUroQNGb4jvFDxHiM+UlSJaxl3LXH6RXoMcmAg2AmBOZI0SSNfXKTGSWiNPY7Lw6QZYTMFk2Gze0UaSjly54Qh1yl3WkhwC1lA7RXTUmbLKSWcsDz3HrBDCmlpOa5G5PIfOJTNeKFuuX5VRNkukcZULgMk8QYDRgW9I2VMQwN8wLu9n39OkLWN16V1M6YvMnMshw9wOEBjsyRo3aLlFQzZqRxFCHZOYF/a36wouyuJCa4JqsuoUBmH5D72jMZoQFlcs5Ek3D/AG8XqjwXMQPOTMzk3Ypa3oTFNMgqGU/Fpc6ff6RKbFcegLWKmoylJffMAAx+kUM0xZzLJPU84a8QqZctGQDiItbfS8e4bRy+HOAwsRBlC3sSnS0LlPhk2YHS/c2EUqqlWhTKSxjptZWIJTKp5XmMHOXYfrFCkwqXMmOpRKB+EAOO5+UTgpGXyNbOeJBG0ZHUarwxIUGQlQ5nM3/xP0jIn1fpfuXoDYioDNmulKdRza0SeGKgAcSElKiQ5Gh194XqmoXMSU5iE/WLNNiAQjJlvvc3PNn+3jpdsHHA9LXTLeWUM6dUpNns7jTXv0iOdS0oR5fmqDaFUtVvYXA5tEGGV6JQSp9dXGh5doJVOPS1v/Ddhc2b3iO0yUKOF+GFrmrZSFSkkZFJLhbnXmG3BAI5R0GkwnJLbMl8rB9vSECfWqQpapXBmFwdMrs+vceoizhiqiWlKUTU+Uk5tSFakmXxW1c6sdHjaM85IPFXh6SlebNlzE8fVnunlbaFWsplyCAq6fwqGhH6x0rxLNzSEqSQF2sWfrYwsU2HGsmLQVhMt3Kra7lILXZveI4YtbLGfvQu4fWtMcWIBbvp9CYdcD8RGWjIEOGZj9eZiaj8EU5GZIWlv5lcR5FhYe0K9TN8icuXkLJUUh7uyv8AHvESdf0Lkm/5HZfiWWlHCChRuxAIfS0KGKSBVTFLWSFZRdI+vreJzSVKgHlhLkMlagkl9NdPVoklyptKZipshQC2DuFJHQqSSNTu0WlpkvtA7DfDQWsgqK+QSCOWphlovCksfw56VhGqWURlPPcExSwLEfKWEq+WsMtVjUsp39L9Y3FLSNKTfZQrcOVSsZanljXMBm6XBYd4glVkyYsS0LZajsASwLFokxHFkTZSgpZGUElPMJuASbEvAfwtiCDOWskJIS7m/wCIPDT9grB0KkkBACAkBtVWKlHmSI9RSqcFwOovm6n9oCjGAheVZa9lGwbX9TFhWLnMMt0K3iNMgQmKSorlTMhBDgcx1+/pHL/FtCZM4pSbNmQd2c2JO4I17Q91NSM1iM1rs1vsmFbxNIFQtACmyk5l8klmQOZJ09YjTosGuQJp60TMinAIDdjy/OL3/UVTEkTLKTvsecbVfhsIQPLF9z/nlC9OmzJbhQ+Ri20sipSeAnRTPMWTZklywZzyJ201EM2C4WlTlTX0AsBCnh1Q0k885JPpYdNBBjC65bsoskhnERPBWhom0MsIKU5FO4ILEdmML1VMXIRmlOlGZink/wCIbs9ujxeTUIlhSgHGzDKB6HU9b94A1CplRN8t2CkkXNgDv+cVEcVZTrsamK+JZa7jnFSjxBZmFQFmylPMfrBnEfAU9CMyVZm25npC7SEy1ssEFJuDqIHKXKnoa4tYGOmrv62YMyi3r3gzIxMBJCVZiQHOoA5D5wr1K5di8ayaoD4TrHSznxsmm0ANRLUtWrv/AMbg9fXlDnhlerOU3VLBygg8RDOe17QkVRUuYlIIBY3J30AiTDsRXKBlkqBzXvt+b6xMZK06TOpeYhY+Jj3hH8U4epI81ABY3KdR35g/ImNEYilKs++urfKJjiMrhFyVnicuwF/URYxC92IdVUrzAkEXe+7QXk1AOVSSSD9kRZrKFUxEv+GpN9SLHXc2vyEQpwbKSEqIVy/baAoyUn6Orkmg/QTpmWd5dh5YVMNtA5b5G28H8CXLTLSFEKBa/U3vCXhKlI8yWrhKyHc/EGPD9YZMNRLlpySydAS7G+4Ha8OsHJ7G+YZZQAAPRnjIEUwSfiNhz39d4yBwZORzNKxlYQNrFtMDF7w6y/CycqkrSm24cP6gwszcDeYUy1FYPw835cvX6RpqVYOsJRsICqzKvyH0F4uCpS19IqVeATkoGQZstm1PX06RQRh88pJKFADVw0WyUmZPqkmYLgDZ/vv8oK0OJS0pZeYOQ4AfS1gLmwA1hWq6VSb6jTXQjaGjwVQSZhP+pSpb2SlzYM5P36QVN3VClFcSNdZNmqHA5KeBBbUAks/QD2hgwKjMuWBMlrQsHiCklJHofqOUONJSyZaE+XLQgoDJJYlPa0D6+qbM5zr1F9LsAPW0OLvBxnrCLYnosXZwR9/5gRMw+Uif57Baho9wDYOOZ6wPlVpIBIS1wx2PvHlBXMCEscpyv+3PrCUaC72OcqllqQMyE8wWu/OBmI4eAUqCtNQRZQdyD+v5PAKj8QTAW1y2OY9wWgoKzOOI7X0t3gJSsTSEXHaPyJzOVJN0q0cPYHqNPSJJFakhnubf5jTxdNM0JWlyQrKAOY1PZmgHSUdUtJMtClAa5Q7e0Zyp1R1SuNthiQEKmplk5kO5ffm++XX0gXV03lTyEuEvbtqGPSzRNQ1IlBRUk5xYg2I5iLkihM1QXNUpKVXCU3PQl/hHIa9ozXIy/lhKXMCwFZnToOaW6e/vFyVUpsAQroNR3G0U5nhtSXKFKRyIJ0/qGhgPiMyfLSUlSVo0zZWIOumnq0JyBV4sNVtWS8wngFgBdzp7aRW8OU02fmWU/wANycxNuw5mBOA0y6ibkJUUDiWdkjmW09P3jp2FyZcv+GlIAB0GkRSvJpLjgqAlKeOwFtHfraFbG6+nKkpUGCnZYNksdCAXHtHSJ9M6XDesKfiHCETUKZKRMFwofzDR2s1zeJyvREqf9CNUvKIzS1ISsOM24/m7F/lFmhnsz948wzBRNISASttA1iIMr8GrQgLzHO7lOo1sG+sRWdbRXl1iFcIIJ0gnglKP9Qc3EAna3W3PQQry6MeYRNX5YKCQoFKsp/CFZXbQuNbiLWF1uVZStRSOYuTrpuPWLGQZxwOXi3FzLQJaQrMWIXfhALk2eEutkmqmIULrY+aoWACWAJPZz6gbQxVuJSVSxd8oBY7nqYhwdSVKJJHFcJPJ9TzhOKBF0iSg8PUyJaZkxfCf/wBhSBfYBVvcxDjHhSWkpMkLCj/MoKTfsBbs+ukM3+qplkImBin4bP0bluYsLXLdKUKc7b+/yg96Lb9nKJlJUSZ2aZL4kfhPIghx0u7xNTyJ9WoiXLJY3Oyd2Ki3trDqVJmKUF8akKZteAn3ZJ9g8E8LTKKvKAYNoLDny1LuTG4VplfyX0KCPC07KSpSJhCQyJaipQJ0UXAsNfaK/wD0hUvKrzJa1iYAZZcKF9cp1u2hjpKMOTLWFIcNpe3sC36xMqjlqmZ1S05iNUhj0L/rGTI5NbB1BJnol/xPLWDdgGI5DtCvjCxLKpglJSFL4tyNrH+UnbY6M8Fq+umSJipZWSBcbkp2flyMLOO4uJrJLajTn9IS/QpegdUrK1Ztug22vt+0WKOuAZRU5HxJu7c2jKSYokJWBc77doJ4lhMqYUlgktqneJY8dkc3xMQMspBY6nf9tIyBacKSl3WSeTxkW2aojqvE0Kll2003+kLdCtK5kwy3zFmFtrvfZvm0UlzwAVBRLNytr+h9ojoqmZImFapcwpYhRCXvyfQdojaRFE6FS07oBUVB9Q8UcTpJgSrKoFG4a/aEzF8aqJi0TEqUghPDLQSbB1FRbp8h0MGcJ8RrmoWqYkAAajQljZujD3iRabozjJKwFPkMtaWsb9uohgwTEZcsISUurm434YVJldmWWN/v3jWoq1JYkXHuOsXkkLi3g6ImvKhw8wU9uTn0itXYi60FF1EF+HdnHd+XQQp0WPJAOY/I/pFmRXpmTUDOQCWci4Dfy7CzesWMl0FwfYIq8QmImTAdCohu1n0i5geIOsgDhZ1FSvi+/wAomx5CBNyhOaWQyW9wroR+sVZ1KJgQmUkZtOHeD/V3Y8NaGCoqUniysd2uPcRGrHGTlbKnmd4Ef9tVcsjLmSSPwn6kGKdbg9VLGZYKgLkuTb1jcpLNBUYvsbPD1KiomJz3lh7aZibm2+g9oYMR8zOryVolSpSSJqCLZVWCuFBJdiw9ObrOBVJk5Vo4ksG6fsXeDE6u8wlZWUre7JDaEaRWm8humBMTwErSleVCAhuMAjOCoAgpJLMDzPszEMMq5bIKgOEsD1tA3Gq7ImXKSqylcZ5gF0hjpc7chA1KJgmBAsO9upMShZZ0mbUhSWTy3gDMwrzVgskpcFQfq9x7xn+qIlBlAl/k0S4TNJWpQ9dXG/2YsVQJMWZKVUlRlA4fNKcrkAIBzB8upCVvcGGbFsYyZVoDAvlLM7KKSPkIV6qrH+pmFZuFkW3YWXzBIPzYvrBSrWibJloQfh+EHU/m7xksCl1Ydw7E1zJalE6D4dIrVOI5QWAzMH+hMVaZeRDEBx9IE1q+Jxtr+kWKJsmwatRLnGYLDMpwDoXP7e0OFTjMoyyXubhtY5pQTkBRzsDuTe7lzbvDEundAWCkjYgxKt2PWCpIpePzRLcFwtJDhQOoPubxUqsEBnITLzpdOZV3YPYXG1x1tHtRi02WSmWoZd7OH03/ACiagxRfm+YpKl8ISQkhN9QWbS/yEakblIvf9rJXLOYq01KjrzI0ijkEtSWULWJHRuu8HMTxhaJLpZyLOHuz6fesICFzlLUClSyDxAJ0OlwND35RnKtokYtjzIlZiVEM5fSLqAUupwGFn6af4hfo6hcoAzZcxCeZSW9SNPUxmJ+JULACPTL9tFbRKZIurTLX5ilOVTE5uz302Z4LjEQlY8vKvVRYsW1cH5RzavrFzFOqydgNB+8TUGLGWbjNYgcx98oH2xumL6nVnVEYvmQSVF/5Y1qcayhIBdZV2YHcnoBCphWMyvjUQ4/C/wBX/WNq7EvMWCgBXb9YaSOfFm/i0T5q0LShSgUtwnc3CWdybE+sJxnqCwFghlaGOpYWhSUMq7sexsQW0tADxfgyVnzA+YnQAAIdy5LOUlrPfQQZxvTHCSWGBjMAWmY91G4Ht6QSm1qVJ1t+cS4P4SXMRmmTPLDsnMm5Fr6sC23aGWn8DUwT/EVNPXOPySB9Y1+yOhMXNBFy77xkFMZ8GJSkqp5q1MQDLUlz3BS2naMhGtGuH4TMWgSkK8zIQSASEhZHEWcBTXS5H6Q2ycNFNJWE5yoj8JYEtuN4D+GF+ShSip3S9rsBf56xbqcfUUhhqL3guzN3sR59BUSkqmoJSbgnmklyNNLQOQCtLHhH8qQwJ7CGPGMUOUpPwruWF/8AECQUhADcVt2jcUJSDvhvw2iYgLGXNmIKlXZtkjnzMGcR8KWdS7EbB29+0K+ITCjy0LlnLKAUFgtmzBOluEONdy8M/hCsWozULWZiHzArLqBLu50bRh0MZ+kF+xTxPw8iW60E21Danbs5ipSIOYrOgG+/66wy4nUqXnATkTmYudgX9rQB8PYDUVYWUFQQlWUK/C9/dmHvGdLoUW2ssjxeslpQMjhRFwecG/CNEhKJc1XxTCQnoNH63f3iWq/+nU0SyoKSqYNibEuHAzeuuvzgZJmzJapcsjLkcMqxBfblb6xot3ZHVUjpS0oYFgDz5xXlU8ubnBSCAG93ce31ijTVSpiAk6NqYnpakB0DUfOEos5uqETxRRf6davKmhMsn4L/ABM5AIHy5xVpJ85aU5EKL6E2f539okx9SFzSiYspL/CLjvpqefaCdHiOUJLZQkWiZtnW8Ioz8BnqBM0HKxbLt1POKS5nllPm8YZswdPdxvfftHS6LEkTZd27Qo+KaNFyAGVqOXWIjX0UV1GZIyF+j+2sUqvxEpCVS5ZDqDEjbbXcwAnUhzlKQVbhtx+cMWCeCJ85BmLdCQzAjiL330gP5JPCQ+EVlsCya0lRSviSdSrX3i1S4kJatXD6kwwz/BSEIsZilafEAPkk/OFTGMHmU5GdKgkkgEjcbcusZ84oycJukGEY+rQFA66n5Rouvz6n5a+2kLUtBJASCSdANYa8N8JVc1GfgQP6iX/T5xYTcjShGItzllEw733gvSYpPmAIlpKidW0HeJqnw3NTMSlakKG+RTn0BA+Tw9YHh8uWAlACS1njRjJW7wGc40sWxLmeHqkpCjz4htl5je0bYblStlkoWFMX2PI8o6iqWtKSXSeVvsRz/wARqROQtYSUzpQDgn4kachblyhxpZQLbdM1xOZmUmWhXw8RI6H4uhdmbcwfwMDIwLE3JO5OqjzL3cvCFgk4y1HMksWAv1u3yMMtJVlUxQCmSAwN7tpGvkrM41gcV2usuOenfTaFbxd4TkoIqELQhKkutGgKtilgwflp84vzZ+aWQtf2zwPxXFiqmZQzOUgAWdnBuBYs0Tj7InTwKlJ4emTRmHCh/iZ/Uf5i4vwNNIeXMQvmkug+ju8NPhlSwFSiVeWtTy0vmCE6ZX6NrvDYhEpBzMAW6+u8Fwj6Hzl0zk87wrPko8yahkuBYg6lhcWg3hdCkIBGpMPtepC5S0EDiDMUvfYsYQcPrpYUxLE6A8/yhwSQHJsOT5gli5iEVhEyXLUAc5LqB2Zyk8x02iNSkkFSlC14G4VVFda6jwhCikNrcCG0kTYdoJ0xU9S5h4EqKQkbjX11hlViMtIZKQIpeWlKU5UDRyRbq5vCpiVTNVMVkWQE7C1uu3KObSZYPodDNzEEAu2keQMw3EFZQVatrGRqIzlsjFSlmUdGIiyjGCLG5PyjoCcbkSalNL5CUymYzAAAFbcI1S9nN3iTGMHp5oy+WL/jAAA9XcRFehuSWaOXVVUuYQwNy36DtB/C/C0yfLK87dhY9idYt4xhCUTZSkj+EOF20V1520MM9PNCJWRBAZNmOpitNGck1gV6ifNpRkWrMwylQ3SSeFQe46kWcx5QYzKlhWRIRmHEA9zsbwR/6eJyylQcFwosWA5wkYhhcyXNMsEkgsNsw2IA58ozlRoxTCa6gzp6ZKVMJinWRsBct6A+sP2ALKZaESzkQLAPt9YUcD8NTpSxOmAAFJu9+JLadHgxUrmS0hKTcn0HX3iq3s0q0hunoSuxDhrgl+2sLniSglqlkIATMQAZel2vl5gEBvUGI6QFWQ51JUNnPt2ijidWoTDnPMuNube0VKtg7KVNjZMt0gANubvFdeOFAzKJJ0b6gQq0UqZMmZZZLqJLORbnHQaLw9SpplTP4ipidZpSq5Fz5YUwIsz/ADgx+RyV0OUFF0J1CpU+qzLcG5NtALemsMWKSUoWEHTK/wCQjxFHLBSqWuYubMJSo5U5enDZhcD4gwivjfmJnFCnJlpAYpYlLOVAPdiTo+liRFiqWSzy8FjDp2RTAn9o9xGYVAjprEEmYgJcqDs46iNJ9clSbMkJuba+vyi0Hsiw/AxMQiYuaEBSylKchJU7h35PZo6ZhUgJly5ZzKCbAqUSVa8T+sI3hOfnQpRWSEzWCSfhBvw8g5+sOZqswzBgBb05waNJ5oNVMxCUEKFiISPGGSdTLb8PruLj0i5i9UooyBTuND3hOnV5AmIy3IIUeQ/eMo+ydhLwjhsiWmbPIUpKZebMzHKlyoJc6qaHrC6qROSJkshSdGZsvQjaOapBmpSQtgVlJS5syQQCdwbRc8NS50qpFyEEK8wPYhi1ubt9vGa6RWryxxrkycwV5YLK1AdttOUV6ppastt2HZjr6/KJaucPMKAkkLSz7BxqPeFrxVNWoShLGYpfM1iQG94sUF5CqFlK3K1ZX0J16QJrKVc2agcIQXM1SmypDKG+qrlgHLmF+tqqhSUoKFIDgW56OYP01XLATL1yN9NX5636wsGppnlbgNKkAy1TUlKNQhRQuZ/MXDgHRkgbNpcHLnGWplgpzaEgsrsS0P8ALxGmKLN1cXhY8QJlqTZHxFgTtq+kGIv9KU+vBS2nrAyViDzBLLlAcgGwzM2b0094krcKMvIEnVL2+nzjfD6MzFZFp0HCsWUkhtOnOK7uipqht8MjywpK1hyoqSP6fyOsWsVMwKQpA4SzjnCJS4l5cw5ypExLgg3BI+m4hjkY2JimJZO+b7YaRMMLi0xrTMzJzK0+gjmMyX5k6Yq2QzFkM7kFRINrQTxzxGwMuSoKcMVJ0SN+5gj4QppIlvMYnZ4jaFFNZF6tnTgMoZm7fSAia6bLmpmGyk6DYi4bsbiOq1YpSCyUkizMLGEnxBQDyyoAMm4Zt9RboH9Ikk5IcGk6YcpPEgmoDKyk7GzbHoR1ERysQ8uYpa1G4IZFwRbe0AvDMkLWEkE3a2iRe99oO1dKUzCFEADSHHKOUkk6RJKxeaZeVCAS7hStAOTb+8ZA+fm/AvK3OPYtGop5ytKFLJUcibqLnU7mH1P+yn+0/WMjICLIqYt/tn/j9RFOm0jyMjoCBHiqyilmqQSksLpLH407iF3wic9dKz8XxfFfY84yMgSOi8WP+L/Bm3zi+/vAeao5Rf7ePYyLEEto9Tp6GAfir4D/AGKjIyNPxZYeSBPhX/8AJ/wHoyrR1mj/ANlP3tGRkFeKFPyZphUhGY8KdeQhG8f7ncTEMeXxacoyMjPTDDyQtLUW13ihXqOUXj2Mgz0d4bDnhL/and0w4v8AwhGRkP4/FHGfmyrT6J++UK9T8c3+7849jIZFsko9Ff2w1YeXm3vwxkZEWzPRbqlnPqfswOrf/uP/AOf5mMjIgStiP4+w/OAI+M94yMi9FiEZenp+QjSu+AdzHsZEQixVJHlS7bn8o2wz4l/2n6GMjIz8g/8AImY//vr7wMVGRkeaXkz1w8UEqQcCfX8occM+Edo9jI7R0cZ7NFaq7n84r4j8CP7x/wCyPIyOiAU/Dn+4f7h/8oIY3/unvGRkZeIZeRVqfwdoyMjIxj//2Q=="], ["categoryName", "Fruits"]]
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (91.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+Completed 200 OK in 388ms (Views: 0.4ms | ActiveRecord: 159.1ms | Allocations: 3932)
+
+
+Started POST "/api/items/" for 127.0.0.1 at 2021-04-07 20:04:49 +0800
+  [1m[35m (41.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ItemsController#create as */*
+  Parameters: {"itemname"=>"Bluberry", "price"=>"5", "noOfItems"=>"12", "image"=>"data:image/jpeg;base64,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", "categoryName"=>"Fruits", "item"=>{"itemname"=>"Bluberry", "price"=>"5", "noOfItems"=>"12", "image"=>"data:image/jpeg;base64,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", "categoryName"=>"Fruits"}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mItem Create (4.4ms)[0m  [1m[32mINSERT INTO "items" ("itemname", "price", "noOfItems", "image", "categoryName") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["itemname", "Bluberry"], ["price", 5], ["noOfItems", 12], ["image", "data:image/jpeg;base64,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"], ["categoryName", "Fruits"]]
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+Completed 200 OK in 99ms (Views: 0.3ms | ActiveRecord: 13.3ms | Allocations: 8250)
+
+
+Started POST "/api/items/" for 127.0.0.1 at 2021-04-07 20:05:24 +0800
+Processing by Api::ItemsController#create as */*
+  Parameters: {"itemname"=>"Bluberry", "price"=>"5", "noOfItems"=>"23", "image"=>"", "categoryName"=>"Fruits", "item"=>{"itemname"=>"Bluberry", "price"=>"5", "noOfItems"=>"23", "image"=>"", "categoryName"=>"Fruits"}}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mItem Create (2.5ms)[0m  [1m[32mINSERT INTO "items" ("itemname", "price", "noOfItems", "image", "categoryName") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["itemname", "Bluberry"], ["price", 5], ["noOfItems", 23], ["image", ""], ["categoryName", "Fruits"]]
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (72.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+Completed 200 OK in 159ms (Views: 0.9ms | ActiveRecord: 75.2ms | Allocations: 1717)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:06:00 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.8ms | Allocations: 1011)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:06:16 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.8ms | Allocations: 961)
+
+
+Started DELETE "/api/items/16" for 127.0.0.1 at 2021-04-07 20:06:20 +0800
+Processing by Api::ItemsController#destroy as */*
+  Parameters: {"id"=>"16", "item"=>{}}
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+  [1m[36mItem Destroy (1.9ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = $1[0m  [["id", 16]]
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (40.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+Completed 200 OK in 99ms (Views: 0.3ms | ActiveRecord: 45.6ms | Allocations: 2364)
+
+
+Started GET "/item/holder.js/20x20?text=%20" for 127.0.0.1 at 2021-04-07 20:06:20 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/item/holder.js/20x20"):
+  
+Started DELETE "/api/items/16" for 127.0.0.1 at 2021-04-07 20:06:31 +0800
+Processing by Api::ItemsController#destroy as */*
+  Parameters: {"id"=>"16", "item"=>{}}
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.8ms | Allocations: 618)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Item with 'id'=16):
+  
+app/controllers/api/items_controller.rb:30:in `destroy'
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:06:41 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.6ms | Allocations: 957)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:06:46 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 864)
+
+
+Started DELETE "/api/items/17" for 127.0.0.1 at 2021-04-07 20:06:50 +0800
+Processing by Api::ItemsController#destroy as */*
+  Parameters: {"id"=>"17", "item"=>{}}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+  [1m[36mItem Destroy (0.9ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = $1[0m  [["id", 17]]
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (43.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:30:in `destroy'
+Completed 200 OK in 73ms (Views: 0.3ms | ActiveRecord: 45.0ms | Allocations: 1938)
+
+
+Started GET "/item/holder.js/20x20?text=%20" for 127.0.0.1 at 2021-04-07 20:06:50 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/item/holder.js/20x20"):
+  
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:07:03 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:07:06 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:09:39 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (1.8ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.8ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:09:41 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (5.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 3.3ms | ActiveRecord: 5.2ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:09:58 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (2.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 2.9ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:10:31 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.5ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:10:37 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (2.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 2.7ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:10:39 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:12:19 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:12:43 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:13:01 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:13:10 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:13:20 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:13:35 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:14:26 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.1ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:17:37 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (7.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 3.7ms | ActiveRecord: 7.9ms | Allocations: 788)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:17:59 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (2.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 2.5ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:18:09 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 787)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:18:19 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (2.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 2.2ms | Allocations: 787)
+
+
+Started POST "/api/items/" for 127.0.0.1 at 2021-04-07 20:19:00 +0800
+Processing by Api::ItemsController#create as */*
+  Parameters: {"itemname"=>"Red Apple", "price"=>"5", "noOfItems"=>"55", "image"=>"https://live-production.wcms.abc-cdn.net.au/b983edcea41673904b177071b138dadb?impolicy=wcms_crop_resize&cropH=861&cropW=1529&xPos=0&yPos=345&width=862&height=485", "categoryName"=>"Fruits", "item"=>{"itemname"=>"Red Apple", "price"=>"5", "noOfItems"=>"55", "image"=>"https://live-production.wcms.abc-cdn.net.au/b983edcea41673904b177071b138dadb?impolicy=wcms_crop_resize&cropH=861&cropW=1529&xPos=0&yPos=345&width=862&height=485", "categoryName"=>"Fruits"}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mItem Create (28.5ms)[0m  [1m[32mINSERT INTO "items" ("itemname", "price", "noOfItems", "image", "categoryName") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["itemname", "Red Apple"], ["price", 5], ["noOfItems", 55], ["image", "https://live-production.wcms.abc-cdn.net.au/b983edcea41673904b177071b138dadb?impolicy=wcms_crop_resize&cropH=861&cropW=1529&xPos=0&yPos=345&width=862&height=485"], ["categoryName", "Fruits"]]
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (138.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+Completed 200 OK in 190ms (Views: 0.4ms | ActiveRecord: 167.1ms | Allocations: 1771)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:19:06 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 874)
+
+
+Started POST "/api/items/" for 127.0.0.1 at 2021-04-07 20:19:31 +0800
+Processing by Api::ItemsController#create as */*
+  Parameters: {"itemname"=>"straberry", "price"=>"5", "noOfItems"=>"78", "image"=>"", "categoryName"=>"Fruits", "item"=>{"itemname"=>"straberry", "price"=>"5", "noOfItems"=>"78", "image"=>"", "categoryName"=>"Fruits"}}
+  [1m[36mTRANSACTION (10.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mItem Create (2.1ms)[0m  [1m[32mINSERT INTO "items" ("itemname", "price", "noOfItems", "image", "categoryName") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["itemname", "straberry"], ["price", 5], ["noOfItems", 78], ["image", ""], ["categoryName", "Fruits"]]
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (40.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:8:in `create'
+Completed 200 OK in 77ms (Views: 0.2ms | ActiveRecord: 53.3ms | Allocations: 1699)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:19:35 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms | Allocations: 951)
+
+
+Started PATCH "/api/items/20" for 127.0.0.1 at 2021-04-07 20:19:46 +0800
+Processing by Api::ItemsController#update as */*
+  Parameters: {"id"=>"20", "itemname"=>"Straberry", "price"=>5, "noOfItems"=>"77", "image"=>"", "categoryName"=>"Fruits", "item"=>{"id"=>"20", "itemname"=>"Straberry", "price"=>5, "noOfItems"=>"77", "image"=>"", "categoryName"=>"Fruits"}}
+  [1m[36mItem Load (2.7ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/api/items_controller.rb:24:in `update'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/items_controller.rb:25:in `update'
+  [1m[36mItem Update (47.8ms)[0m  [1m[33mUPDATE "items" SET "itemname" = $1, "noOfItems" = $2 WHERE "items"."id" = $3[0m  [["itemname", "Straberry"], ["noOfItems", 77], ["id", 20]]
+  ↳ app/controllers/api/items_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (58.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/items_controller.rb:25:in `update'
+Completed 200 OK in 162ms (Views: 0.2ms | ActiveRecord: 116.0ms | Allocations: 2169)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:20:11 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (6.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 3.2ms | ActiveRecord: 6.7ms | Allocations: 951)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-04-07 20:20:14 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (10.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 6.8ms | ActiveRecord: 10.6ms | Allocations: 951)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 20:22:17 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 39ms (Views: 16.1ms | ActiveRecord: 19.5ms | Allocations: 3290)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-04-07 20:22:28 +0800
+Processing by Api::FoodsController#index as */*
+  [1m[36mFood Load (10.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 28ms (Views: 17.0ms | ActiveRecord: 10.3ms | Allocations: 863)
+
+
