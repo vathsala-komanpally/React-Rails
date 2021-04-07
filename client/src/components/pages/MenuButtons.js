@@ -14,6 +14,11 @@ const MenuButtons = (props) => {
           {text}
         </Tooltip>
       );
+
+    const handleMenuClick = (e) =>{
+        console.log(e.target.value);
+        props.menuOfButtonClicked(e.target.value);
+      }
     return (
         <Card>
             <Card.Header>{props.header}</Card.Header>
@@ -23,7 +28,7 @@ const MenuButtons = (props) => {
                     placement="top"
                     delay={{ show: 300, hide: 400 }}
                     overlay={renderTooltip}> 
-                    <Button variant="secondary">{props.buttonText}</Button>
+                    <Button variant="secondary" value={props.buttonText} onClick={handleMenuClick}>{props.buttonText}</Button>
                 </OverlayTrigger>
             </Card.Body>
         </Card>

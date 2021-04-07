@@ -16,8 +16,8 @@ const items = [
     { to: '/', label: 'Home' },
     { to: '/ourmenu', label: 'OurMenu' },
     { to: '/booknow', label: 'BookNow' },
-    { to: '/contact', label: 'Contact' },
     { to: '/dineInNow', label: 'Dine-In-Now' },
+    { to: '/contact', label: 'Contact' }, 
 ]
 
 const NavBar = () => {
