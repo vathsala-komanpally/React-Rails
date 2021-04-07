@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/esm/Button';
 import Form from 'react-bootstrap/Form';
-import Table from 'react-bootstrap/Table';
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import Jumbotron from 'react-bootstrap/Jumbotron'
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import {PrintMenuItemsToSelect} from './PrintMenuItemsToSelect';
 
 const DineIn = () => {
   const [foodMenu, setFoodMenu] = useState([]);
+  const [drinkMenu, setDrinkMenu] = useState([]);
+  const [dessertMenu, setDessertMenu] = useState([]);
   const [tableChoosen, setTableChoosen] = useState("");
   const [itemsOrdered, setItemsOrdered] = useState([]);
   const [tables, setTables] = useState(["Table1 - max:4-people", "Table2 - max:4-people", "Table3 - max:6-people", "Table4 - max:6-people", "Table5 - max:8-people", "Table6 - max:8-people", "Table7 - max:10-people", "Table8 -  max:4-people", "Table9 - max:4-people", "Table10 - max:6-people"]);
@@ -17,14 +19,14 @@ const DineIn = () => {
 
   useEffect(() => {
     GETDataOfFoodMenu();
+    GETDataOfDrinkMenu();
+    GETDataOfDessertMenu();
   }, []);
 
   useEffect(() => {
     setTables(tables);
     setItemsOrdered(itemsOrdered);
-    console.log("here");
   }, [tables, itemsOrdered,orderList]);
-
 
   const GETDataOfFoodMenu = () => {
     fetch('/api/foods/', {
@@ -33,9 +35,21 @@ const DineIn = () => {
         setFoodMenu(foodItems);
       })
   }
+
+  const GETDataOfDrinkMenu = () => {
+    fetch('api/drinks/',{}).then((response)=>response.json())
+    .then((drinkItems)=>{
+      setDrinkMenu(drinkItems);
+    })
+  }
+  const GETDataOfDessertMenu = () => {
+    fetch('api/desserts/',{}).then((response)=>response.json())
+    .then((dessertItems)=>{
+      setDessertMenu(dessertItems);
+    })
+  }
  
   const handleSelectedTable = (e) => {
-    console.log(e.target.value);
     setTableChoosen(e.target.value);
   }
 
@@ -53,16 +67,12 @@ const DineIn = () => {
   const handleSubmit = () => {
     const indexPosition=tables.findIndex((table)=>table===tableChoosen);
     tables.splice(indexPosition,1);
-    console.log(itemsOrdered,tableChoosen);
-    // itemsOrdered.map((item)=>{
-    //   setOrderList([...orderList,{tableName:tableChoosen, itemname:item.itemname, price:item.price}])
-    // })
     setOrderList([...orderList, ...itemsOrdered]);
+    setItemsOrdered([]);// look at this later
   }
 
   const handleClick2C = () =>{
     setClicked2C("true");
-    console.log("orderlist is:",orderList);
   }
 
   return (
@@ -76,25 +86,13 @@ const DineIn = () => {
         </Form.Control>
       </Form.Group>
       <Form.Group>
-        <Form.Label>Please choose items to order </Form.Label>
-        <Table striped bordered hover size="sm">
-          <thead>
-            <tr>
-              <th>Select</th>
-              <th>Item Name</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            {foodMenu.map((itemsdetails) => {
-              return <tr key={itemsdetails.id}>
-                <td><Form.Check type="checkbox" onChange={()=>{handleMenuItemChoosen(itemsdetails)}}></Form.Check></td>
-                <td>{itemsdetails.itemname}<br /><label>{itemsdetails.description}</label></td>
-                <td>${itemsdetails.price}</td>
-              </tr>
-            })}
-          </tbody>
-        </Table>
+        <Form.Label>Please choose items to order: </Form.Label><br/>
+        <Form.Label style={{background:"lightblue",float: "left", padding:10}}>Food Menu :</Form.Label>
+        <PrintMenuItemsToSelect Menu={foodMenu} handleMenuItemChoosen={handleMenuItemChoosen}/>
+        <Form.Label style={{background:"lightblue",float: "left", padding:10}}>Drinks Menu :</Form.Label>
+        <PrintMenuItemsToSelect Menu={drinkMenu} handleMenuItemChoosen={handleMenuItemChoosen}/>
+        <Form.Label style={{background:"lightblue",float: "left", padding:10}}>Desserts Menu :</Form.Label>
+        <PrintMenuItemsToSelect Menu={dessertMenu} handleMenuItemChoosen={handleMenuItemChoosen}/>
         </Form.Group>
         <Button variant="secondary" onClick={handleSubmit}>Submit</Button>
     </Form>
@@ -106,7 +104,7 @@ const DineIn = () => {
       {orderList.map((item, index)=>{
     return <CardGroup key={index}>
       <Card.Body>
-      <Card.Text>{item.tableName.substr(0,6)}-{item.itemname}-${item.price}</Card.Text>
+      <Card.Text>{item.tableName.substr(0,7)}-{item.itemname}-${item.price}</Card.Text>
       </Card.Body>
       </CardGroup>})}
     </Card>}

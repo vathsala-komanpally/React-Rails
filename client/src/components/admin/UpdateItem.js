@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { ListOfItems } from "./ListOfItems";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import {PrintUserMessage} from './PrintUserMessage';
 
 const UpdateItem = () => {
     const [selectedItem, setSelectedItem] = useState({
@@ -14,6 +15,7 @@ const UpdateItem = () => {
         categoryName: ''
     });
     const [items, setItems] = useState([]);
+    const [userMessage, setUserMessage]=useState('');
 
     useEffect(() => {
         GETDataOfItems();
@@ -54,7 +56,8 @@ const UpdateItem = () => {
             },
             body: JSON.stringify(selectedItem),
         }).then((response) => {
-            console.log("responses", response);
+            console.log("responses", response.status);
+            setUserMessage(response.status);
         })
     }
 
@@ -87,6 +90,10 @@ const UpdateItem = () => {
 
 
                 <Button variant="info" type="submit" onClick={handleUpdateItemSubmit} className="btn btn-primary">Update Item</Button>
+                {userMessage===200&&
+                    <PrintUserMessage header={"Update Item"} message={"Item Updated Successfully"}/>
+                }
+            
             </Form></Jumbotron>
         </div>
 

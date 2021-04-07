@@ -3,6 +3,8 @@ Rails.application.routes.draw do
     # get '/groceries', to: 'groceries#index'
     resources :items
     resources :foods
+    resources :drinks
+    resources :desserts
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

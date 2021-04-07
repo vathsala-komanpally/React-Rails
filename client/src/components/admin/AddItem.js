@@ -2,7 +2,8 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Form from 'react-bootstrap/Form'
 import { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import {PrintUserMessage} from './PrintUserMessage';
 
 const AddItem = () => {
     const [items, setItems] = useState({
@@ -12,6 +13,7 @@ const AddItem = () => {
         image: '',
         categoryName: ''
     });
+    const [userMessage, setUserMessage]=useState('');
 
     useEffect(() => {
         setItems(items);
@@ -28,7 +30,10 @@ const AddItem = () => {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(items)
-        }).then(data => data.json())
+        }).then((response) => {
+            console.log("responses", response.status);
+            setUserMessage(response.status);
+        })
     }
 
     return (
@@ -62,6 +67,10 @@ const AddItem = () => {
                     </Form.Group>
 
                     <Button variant="info" type="submit" onClick={handleAddItemClick} className="btnAddItem">Add Item</Button>
+                    {userMessage === 200 &&
+                        <PrintUserMessage header={"Update Item"} message={"Item Updated Successfully"} />
+                    }
+
                 </Form>
             </Jumbotron>
         </div>

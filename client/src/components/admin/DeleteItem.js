@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react';
 import { ListOfItems } from "./ListOfItems";
-import {PrintDeleteUserMessage} from './PrintDeleteUserMessage';
+import {PrintUserMessage} from './PrintUserMessage';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
@@ -52,7 +52,7 @@ const DeleteItem = () => {
             <ListOfItems groceryItems={items} handleClick={handleClickItems}/>    
             <Button variant="info" type="submit" onClick={handleDeleteItemNameSubmit} >Delete Item</Button>
             {userMessage===200&&
-                    <PrintDeleteUserMessage message={"Item deleted"}/>
+                    <PrintUserMessage header={"Delete Item"} message={"Item deleted"}/>
                 }
             </Form></Jumbotron>
         </div>

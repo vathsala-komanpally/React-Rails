@@ -3,17 +3,21 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import { MenuButtons } from './MenuButtons';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Form from 'react-bootstrap/Form'
-import Table from 'react-bootstrap/Table'
 import dessert from '../images/dessert.jpeg';
 import food from '../images/food.jpeg';
 import drinks from '../images/drinks.jpeg';
+import PrintMenuList from './PrintMenuList';
 
 const OurMenu = () => {
   const [foodMenu, setFoodMenu] = useState([]);
+  const [drinkMenu, setDrinkMenu] = useState([]);
+  const [dessertMenu, setDessertMenu] = useState([]);
   const [menuSelected, setMenuSelected] = useState("");
 
   useEffect(() => {
     GETDataOfFoodMenu();
+    GETDataOfDrinkMenu();
+    GETDataOfDessertMenu();
   }, []);
 
 
@@ -23,6 +27,19 @@ const OurMenu = () => {
       .then((foodItems) => {
         setFoodMenu(foodItems);
       })
+  }
+
+  const GETDataOfDrinkMenu = () => {
+    fetch('api/drinks/',{}).then((response)=>response.json())
+    .then((drinkItems)=>{
+      setDrinkMenu(drinkItems);
+    })
+  }
+  const GETDataOfDessertMenu = () => {
+    fetch('api/desserts/',{}).then((response)=>response.json())
+    .then((dessertItems)=>{
+      setDessertMenu(dessertItems);
+    })
   }
 
   const handleMenu= (menuName) =>{
@@ -40,25 +57,9 @@ const OurMenu = () => {
       </CardDeck>
       </Form.Group>
       <Form.Group>
-        {menuSelected==="food menu"&&
-        <Table striped bordered hover size="sm">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Item Name</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            {foodMenu.map((itemsdetails)=>{
-             return <tr key={itemsdetails.id}>
-              <td>{itemsdetails.id}</td>
-              <td>{itemsdetails.itemname}<br/><label>{itemsdetails.description}</label></td>
-              <td>${itemsdetails.price}</td>
-            </tr>
-            })}
-          </tbody>
-        </Table>}
+        {menuSelected==="food menu"&&<PrintMenuList menu={foodMenu}/>}
+        {menuSelected==="drinks menu"&&<PrintMenuList menu={drinkMenu}/>}
+        {menuSelected==="dessert menu"&&<PrintMenuList menu={dessertMenu}/>}
         </Form.Group>
         </Form>
         </Jumbotron>
