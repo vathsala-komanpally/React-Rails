@@ -13,8 +13,7 @@ const OperationsOfAdmin = () => {
             <h2>List of things Admin can do here:</h2>
             <div className="addItemInfoUser">
                 <p className="addItemInfo">Click on Add: <br/>
-                To add a new category name/item name in there or <br/>
-                To add new item in the existing category name<br/>
+                To add new item in the items table<br/>
                 </p>
                 <Link to="/item/create">
                 <Button variant="info" id="add" className="btn btn-primary" >Add</Button>
@@ -22,7 +21,7 @@ const OperationsOfAdmin = () => {
             </div>
             <div className="updateItemInfoUser">
                 <p className="updateItemInfo">Click on update: <br/>
-                To update existing category or item deatils <br/>
+                To update existing item deatils <br/>
                 </p>
                 <Link to="/item/update">
                 <Button variant="info" id="update" className="btn btn-primary">Update</Button>
@@ -32,7 +31,7 @@ const OperationsOfAdmin = () => {
           
             <div className="deleteItemInfoUser">
                 <p className="deleteItemInfo">Click on Delete: <br/>
-                To delete a category or any item from particular category<br/>
+                To delete an item from particular category<br/>
                 </p>
                 <Link to="/item/delete">
                 <Button variant="info" id="delete" className="btn btn-primary">Delete</Button>

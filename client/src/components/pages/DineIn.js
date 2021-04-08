@@ -61,14 +61,14 @@ const DineIn = () => {
     const indexOfItem=itemsOrdered.findIndex((item)=>item.itemname===menuItemSelected.itemname);
   console.log("index:", indexOfItem);
     itemsOrdered.splice(indexOfItem,1);
-}
+  }
   }
 
   const handleSubmit = () => {
     const indexPosition=tables.findIndex((table)=>table===tableChoosen);
     tables.splice(indexPosition,1);
     setOrderList([...orderList, ...itemsOrdered]);
-    setItemsOrdered([]);// look at this later
+    setItemsOrdered([]);// or uncheck all checkboxes on submit
   }
 
   const handleClick2C = () =>{
@@ -79,8 +79,8 @@ const DineIn = () => {
     <Jumbotron>
     <Form>
       <Form.Group>
-        <Form.Label>Availabel table's for today on {myCurrentTime}:</Form.Label><br />
-        <Form.Label>Please select a table from below list</Form.Label>
+        <Form.Label style={{backgroundColor:"gray", padding:5}}>Availabel table's for today on {myCurrentTime}:</Form.Label><br />
+        <Form.Label style={{background:"lightblue",float: "left", padding:10}}>Please select a table from below list</Form.Label>
         <Form.Control as="select" custom onChange={handleSelectedTable}>
           {tables.map((table, index) => <option key={index}>{table}</option>)}
         </Form.Control>

@@ -18,7 +18,7 @@ const Home = () => {
           src={home}
         />
         <Figure.Caption>
-          Welcome to Lucky's Restaurent </Figure.Caption>
+          Welcome to Lucky's Restaurant </Figure.Caption>
       </Figure>
 
       <CardDeck>

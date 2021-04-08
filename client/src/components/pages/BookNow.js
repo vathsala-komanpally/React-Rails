@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card'
 
 const BookNow = () => {
   const [value, onChange] = useState(new Date());
+  const [count, setCount] = useState(0);
   return (
     <Form>
       <Accordion defaultActiveKey="0">
@@ -24,9 +25,9 @@ const BookNow = () => {
             </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Body> <Form.Label>How many people are comming?</Form.Label><br />
-              <Button variant="outline-info">+</Button>
-              <Form.Label>0</Form.Label>
-              <Button variant="outline-info">-</Button></Card.Body>
+              <Button variant="outline-info" onClick={()=>setCount(count+1)}>+</Button>
+              <Form.Label style={{padding:10}}>{count}</Form.Label>
+              <Button variant="outline-info" onClick={()=>setCount(count-1)}>-</Button></Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>

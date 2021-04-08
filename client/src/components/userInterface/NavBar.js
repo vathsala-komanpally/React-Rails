@@ -10,7 +10,7 @@ import { BookNow } from '../pages/BookNow'
 import { OurMenu } from '../pages/OurMenu'
 import { Contact } from '../pages/Contact'
 import { Home } from '../pages/Home';
-
+import {Login} from '../admin/Login';
 
 const items = [
     { to: '/', label: 'Home' },
@@ -21,6 +21,7 @@ const items = [
 ]
 
 const NavBar = () => {
+    
     return (
         <div>
             <Router>
@@ -34,13 +35,16 @@ const NavBar = () => {
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                         <Button variant="secondary">Search</Button>
-                    </Form>       
+                        <Button variant="info" style={{margin:10}}><Link to="/login">Login</Link></Button>
+                    </Form>  
+                   
             </Navbar>
             <Switch>
           <Route path="/dineInNow" component={DineIn}></Route>
           <Route path="/ourmenu" component={OurMenu} ></Route>
           <Route path="/booknow" component={BookNow}></Route>
           <Route path="/contact" component={Contact}></Route>
+          <Route path="/login" component={Login}></Route>
           <Route path="/" component={Home}></Route>
           </Switch>
           </Router>
