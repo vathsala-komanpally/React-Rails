@@ -24,6 +24,9 @@ const UpdateItem = () => {
 
     const GETDataOfItems = () => {
         fetch('/api/items/', {
+            headers: {
+                'token': window.localStorage.getItem('token')
+              }
         }).then((response) => response.json())
             .then((groceryItems) => {
                 setItems(groceryItems);
@@ -52,6 +55,7 @@ const UpdateItem = () => {
         fetch(`/api/items/${selectedItem.id}`, {
             method: "PATCH",
             headers: {
+                'token': window.localStorage.getItem('token'),
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(selectedItem),

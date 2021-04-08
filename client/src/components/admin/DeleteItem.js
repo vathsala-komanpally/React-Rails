@@ -17,6 +17,9 @@ const DeleteItem = () => {
 
     const GETDataOfItems=()=>{
         fetch('/api/items/', {
+            headers: {
+                'token': window.localStorage.getItem('token')
+              }
         }).then((response) => response.json())
         .then((groceryItems) => {
             setItems(groceryItems);
@@ -38,6 +41,7 @@ const DeleteItem = () => {
         fetch(`/api/items/${selectedItemId.id}`, {
             method: "DELETE",
             headers: {
+                'token': window.localStorage.getItem('token'),
                 "Content-Type": "application/json"
             },
         }).then((response) => {

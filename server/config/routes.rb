@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   namespace :api do
-    # get '/groceries', to: 'groceries#index'
+    post '/auth/login', to: 'auth#login'
     resources :items
+    resources :users
     resources :foods
     resources :drinks
     resources :desserts

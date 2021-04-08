@@ -30,6 +30,9 @@ const DineIn = () => {
 
   const GETDataOfFoodMenu = () => {
     fetch('/api/foods/', {
+      headers: {
+        'token': window.localStorage.getItem('token')
+      }
     }).then((response) => response.json())
       .then((foodItems) => {
         setFoodMenu(foodItems);
@@ -37,13 +40,21 @@ const DineIn = () => {
   }
 
   const GETDataOfDrinkMenu = () => {
-    fetch('api/drinks/',{}).then((response)=>response.json())
+    fetch('api/drinks/',{
+      headers: {
+        'token': window.localStorage.getItem('token')
+      }
+    }).then((response)=>response.json())
     .then((drinkItems)=>{
       setDrinkMenu(drinkItems);
     })
   }
   const GETDataOfDessertMenu = () => {
-    fetch('api/desserts/',{}).then((response)=>response.json())
+    fetch('api/desserts/',{
+      headers: {
+        'token': window.localStorage.getItem('token')
+      }
+    }).then((response)=>response.json())
     .then((dessertItems)=>{
       setDessertMenu(dessertItems);
     })
