@@ -7,6 +7,9 @@ import dessert from '../images/dessert.jpeg';
 import food from '../images/food.jpeg';
 import drinks from '../images/drinks.jpeg';
 import PrintMenuList from './PrintMenuList';
+import { getFoodMenu } from '../../api/getFoodMenu';
+import { getDrinkMenu } from '../../api/getDrinkMenu';
+import { getDessertMenu } from '../../api/getDessertMenu';
 
 const OurMenu = () => {
   const [foodMenu, setFoodMenu] = useState([]);
@@ -15,43 +18,10 @@ const OurMenu = () => {
   const [menuSelected, setMenuSelected] = useState("");
 
   useEffect(() => {
-    GETDataOfFoodMenu();
-    GETDataOfDrinkMenu();
-    GETDataOfDessertMenu();
+    getFoodMenu().then((foodItems)=>{setFoodMenu(foodItems)});
+    getDrinkMenu().then((drinkItems)=>{setDrinkMenu(drinkItems)})
+    getDessertMenu().then((dessertItems)=>{setDessertMenu(dessertItems)})
   }, []);
-
-
-  const GETDataOfFoodMenu = () => {
-    fetch('/api/foods/', {
-      headers: {
-        'token': window.localStorage.getItem('token')
-      }
-    }).then((response) => response.json())
-      .then((foodItems) => {
-        setFoodMenu(foodItems);
-      })
-  }
-
-  const GETDataOfDrinkMenu = () => {
-    fetch('api/drinks/',{
-      headers: {
-        'token': window.localStorage.getItem('token')
-      }
-    }).then((response)=>response.json())
-    .then((drinkItems)=>{
-      setDrinkMenu(drinkItems);
-    })
-  }
-  const GETDataOfDessertMenu = () => {
-    fetch('api/desserts/',{
-      headers: {
-        'token': window.localStorage.getItem('token')
-      }
-    }).then((response)=>response.json())
-    .then((dessertItems)=>{
-      setDessertMenu(dessertItems);
-    })
-  }
 
   const handleMenu= (menuName) =>{
     setMenuSelected(menuName);

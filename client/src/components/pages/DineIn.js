@@ -5,8 +5,11 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import {PrintMenuItemsToSelect} from './PrintMenuItemsToSelect';
+import { getFoodMenu } from '../../api/getFoodMenu';
+import { getDrinkMenu } from '../../api/getDrinkMenu';
+import { getDessertMenu } from '../../api/getDessertMenu';
 
-const DineIn = () => {
+const DineIn = (props) => {
   const [foodMenu, setFoodMenu] = useState([]);
   const [drinkMenu, setDrinkMenu] = useState([]);
   const [dessertMenu, setDessertMenu] = useState([]);
@@ -18,47 +21,15 @@ const DineIn = () => {
   const [orderList, setOrderList]=useState([]);
 
   useEffect(() => {
-    GETDataOfFoodMenu();
-    GETDataOfDrinkMenu();
-    GETDataOfDessertMenu();
+    getFoodMenu().then((foodItems)=>{setFoodMenu(foodItems)});
+    getDrinkMenu().then((drinkItems)=>{setDrinkMenu(drinkItems)});
+    getDessertMenu().then((dessertItems)=>{setDessertMenu(dessertItems)});
   }, []);
 
   useEffect(() => {
     setTables(tables);
     setItemsOrdered(itemsOrdered);
   }, [tables, itemsOrdered,orderList]);
-
-  const GETDataOfFoodMenu = () => {
-    fetch('/api/foods/', {
-      headers: {
-        'token': window.localStorage.getItem('token')
-      }
-    }).then((response) => response.json())
-      .then((foodItems) => {
-        setFoodMenu(foodItems);
-      })
-  }
-
-  const GETDataOfDrinkMenu = () => {
-    fetch('api/drinks/',{
-      headers: {
-        'token': window.localStorage.getItem('token')
-      }
-    }).then((response)=>response.json())
-    .then((drinkItems)=>{
-      setDrinkMenu(drinkItems);
-    })
-  }
-  const GETDataOfDessertMenu = () => {
-    fetch('api/desserts/',{
-      headers: {
-        'token': window.localStorage.getItem('token')
-      }
-    }).then((response)=>response.json())
-    .then((dessertItems)=>{
-      setDessertMenu(dessertItems);
-    })
-  }
  
   const handleSelectedTable = (e) => {
     setTableChoosen(e.target.value);
@@ -66,9 +37,9 @@ const DineIn = () => {
 
   const handleMenuItemChoosen = (menuItemSelected) => {
     const filteredItem=itemsOrdered.filter((item)=>item.itemname===menuItemSelected.itemname);
-    if(filteredItem.length==0){
+    if(filteredItem.length===0){
     setItemsOrdered([...itemsOrdered,{tableName:tableChoosen, itemname:menuItemSelected.itemname, price: menuItemSelected.price}]);
-  }else if(filteredItem.length==1){
+  }else if(filteredItem.length===1){
     const indexOfItem=itemsOrdered.findIndex((item)=>item.itemname===menuItemSelected.itemname);
   console.log("index:", indexOfItem);
     itemsOrdered.splice(indexOfItem,1);

@@ -1,19 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container';
 
 const Contact = () => {
-  const [validated, setValidated] = useState(false);
-
-  const handleChange = (event) => {
-    console.log(validated);
-    if (validated === false) {
-      setValidated(true);
-    }else{
-      setValidated(false);
-    }
   
-  };
   return (
     <Jumbotron>
       <Container>
