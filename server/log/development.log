@@ -50494,3 +50494,124 @@ Completed 200 OK in 70ms (Views: 66.0ms | ActiveRecord: 3.5ms | Allocations: 286
 Completed 200 OK in 92ms (Views: 83.8ms | ActiveRecord: 7.5ms | Allocations: 3633)
 
 
+Started GET "/api/desserts/" for 127.0.0.1 at 2021-05-06 17:37:43 +0800
+Started GET "/api/foods/" for 127.0.0.1 at 2021-05-06 17:37:43 +0800
+Started GET "/api/drinks/" for 127.0.0.1 at 2021-05-06 17:37:43 +0800
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::DessertsController#index as */*
+Processing by Api::FoodsController#index as */*
+Processing by Api::DrinksController#index as */*
+  [1m[36mFood Load (2.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+  [1m[36mDrink Load (4.7ms)[0m  [1m[34mSELECT "drinks".* FROM "drinks"[0m
+  ↳ app/controllers/api/drinks_controller.rb:4:in `index'
+  [1m[36mDessert Load (52.1ms)[0m  [1m[34mSELECT "desserts".* FROM "desserts"[0m
+  ↳ app/controllers/api/desserts_controller.rb:4:in `index'
+Completed 200 OK in 72ms (Views: 16.3ms | ActiveRecord: 54.3ms | Allocations: 10163)
+
+
+Completed 200 OK in 85ms (Views: 6.8ms | ActiveRecord: 69.6ms | Allocations: 14864)
+
+
+Completed 200 OK in 78ms (Views: 35.4ms | ActiveRecord: 40.0ms | Allocations: 13906)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-05-06 17:39:05 +0800
+Started GET "/api/drinks/" for 127.0.0.1 at 2021-05-06 17:39:05 +0800
+Processing by Api::FoodsController#index as */*
+Processing by Api::DrinksController#index as */*
+Started GET "/api/desserts/" for 127.0.0.1 at 2021-05-06 17:39:05 +0800
+Processing by Api::DessertsController#index as */*
+  [1m[36mFood Load (12.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+  [1m[36mDrink Load (11.3ms)[0m  [1m[34mSELECT "drinks".* FROM "drinks"[0m
+  ↳ app/controllers/api/drinks_controller.rb:4:in `index'
+Completed 200 OK in 31ms (Views: 18.6ms | ActiveRecord: 12.0ms | Allocations: 2681)
+
+
+Completed 200 OK in 31ms (Views: 19.4ms | ActiveRecord: 11.3ms | Allocations: 2799)
+
+
+  [1m[36mDessert Load (6.7ms)[0m  [1m[34mSELECT "desserts".* FROM "desserts"[0m
+  ↳ app/controllers/api/desserts_controller.rb:4:in `index'
+Completed 200 OK in 32ms (Views: 24.6ms | ActiveRecord: 6.7ms | Allocations: 3017)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-05-06 17:39:57 +0800
+Processing by Api::FoodsController#index as */*
+Started GET "/api/drinks/" for 127.0.0.1 at 2021-05-06 17:39:57 +0800
+Started GET "/api/desserts/" for 127.0.0.1 at 2021-05-06 17:39:57 +0800
+Processing by Api::DrinksController#index as */*
+Processing by Api::DessertsController#index as */*
+  [1m[36mFood Load (1.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+  [1m[36mDrink Load (3.1ms)[0m  [1m[34mSELECT "drinks".* FROM "drinks"[0m
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 1.3ms | Allocations: 2984)
+
+
+  ↳ app/controllers/api/drinks_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 3.1ms | Allocations: 2359)
+
+
+  [1m[36mDessert Load (4.8ms)[0m  [1m[34mSELECT "desserts".* FROM "desserts"[0m
+  ↳ app/controllers/api/desserts_controller.rb:4:in `index'
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 4.8ms | Allocations: 3016)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-05-09 17:24:34 +0800
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (45.0ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 101ms (Views: 11.2ms | ActiveRecord: 57.4ms | Allocations: 7699)
+
+
+Started GET "/api/items/" for 127.0.0.1 at 2021-05-09 17:24:36 +0800
+Processing by Api::ItemsController#index as */*
+  [1m[36mItem Load (4.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/api/items_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 5.9ms | ActiveRecord: 4.6ms | Allocations: 1306)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-05-09 17:24:48 +0800
+Processing by Api::FoodsController#index as */*
+Started GET "/api/drinks/" for 127.0.0.1 at 2021-05-09 17:24:48 +0800
+Processing by Api::DrinksController#index as */*
+Started GET "/api/desserts/" for 127.0.0.1 at 2021-05-09 17:24:48 +0800
+Processing by Api::DessertsController#index as */*
+  [1m[36mDessert Load (3.8ms)[0m  [1m[34mSELECT "desserts".* FROM "desserts"[0m
+  ↳ app/controllers/api/desserts_controller.rb:4:in `index'
+Completed 200 OK in 67ms (Views: 18.6ms | ActiveRecord: 46.3ms | Allocations: 7036)
+
+
+  [1m[36mDrink Load (84.1ms)[0m  [1m[34mSELECT "drinks".* FROM "drinks"[0m
+  ↳ app/controllers/api/drinks_controller.rb:4:in `index'
+  [1m[36mFood Load (127.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 152ms (Views: 14.8ms | ActiveRecord: 135.8ms | Allocations: 13780)
+
+
+Completed 200 OK in 160ms (Views: 24.5ms | ActiveRecord: 133.4ms | Allocations: 15076)
+
+
+Started GET "/api/foods/" for 127.0.0.1 at 2021-05-09 17:24:51 +0800
+Processing by Api::FoodsController#index as */*
+Started GET "/api/drinks/" for 127.0.0.1 at 2021-05-09 17:24:51 +0800
+Processing by Api::DrinksController#index as */*
+Started GET "/api/desserts/" for 127.0.0.1 at 2021-05-09 17:24:51 +0800
+Processing by Api::DessertsController#index as */*
+  [1m[36mDessert Load (0.8ms)[0m  [1m[34mSELECT "desserts".* FROM "desserts"[0m
+  ↳ app/controllers/api/desserts_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.8ms | Allocations: 1026)
+
+
+  [1m[36mDrink Load (12.9ms)[0m  [1m[34mSELECT "drinks".* FROM "drinks"[0m
+  ↳ app/controllers/api/drinks_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 23.8ms | ActiveRecord: 12.9ms | Allocations: 2919)
+
+
+  [1m[36mFood Load (13.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/api/foods_controller.rb:4:in `index'
+Completed 200 OK in 50ms (Views: 35.1ms | ActiveRecord: 13.0ms | Allocations: 4693)
+
+

@@ -21,7 +21,6 @@ const PrintMenuList=(props)=> {
                 })}
             </tbody>
         </Table>
-
     )
 }
 
